@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{57F0BA1F-6B4B-4029-A52C-EBA4F3158569}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sidste opgave før grundforløbs prøve/Program.cs">
+    <Files>
+      <File FileName="Sidste opgave før grundforløbs prøve/Program.cs" Line="133" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sidste opgave før grundforløbs prøve" expanded="True">
+            <Node name="Sidste opgave før grundforløbs prøve" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Sidste_220opgave_220før_220grundforløbs_220prøve PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

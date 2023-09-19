@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\bin\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..exe
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\bin\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..deps.json
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\bin\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..runtimeconfig.json
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\bin\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..dll
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\bin\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..pdb
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..AssemblyInfo.cs
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..dll
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\refint\Opgaver til lektion 8. typen bool J.R..dll
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..pdb
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\Opgaver til lektion 8. typen bool J.R..genruntimeconfig.cache
+C:\Users\admin\source\repos\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\obj\Debug\net6.0\ref\Opgaver til lektion 8. typen bool J.R..dll

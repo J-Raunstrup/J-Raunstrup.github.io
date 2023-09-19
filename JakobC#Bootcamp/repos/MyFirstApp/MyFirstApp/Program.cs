@@ -1,0 +1,160 @@
+﻿// See https://aka.ms/new-console-template for more information
+using System.Diagnostics;
+using System.Drawing;
+
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Opgaver til lektion 1");
+Console.WriteLine("Programmering er fedt!");
+Console.WriteLine("Tryk en tast for at afslutte");
+Console.ReadKey();
+Console.WriteLine();
+Console.WriteLine("Opgaver til lektion 2");
+Console.WriteLine("Christmas Tree Test");
+Console.WriteLine("          *          ");
+Console.WriteLine("         * *         ");
+Console.WriteLine("        *   *        ");
+Console.WriteLine("       *     *       ");
+Console.WriteLine("      *********      ");
+Console.WriteLine("          *          ");
+Console.BackgroundColor = ConsoleColor.DarkRed;
+Console.ForegroundColor = ConsoleColor.Green;
+Console.Clear();
+Console.SetCursorPosition(10, 20);
+Console.Write("*");
+Console.SetCursorPosition(9, 21);
+Console.Write("* *");
+Console.SetCursorPosition(8, 22);
+Console.Write("*   *");
+Console.SetCursorPosition(7, 23);
+Console.Write("*     *");
+Console.SetCursorPosition(6, 24);
+Console.Write("*********");
+Console.SetCursorPosition(10, 25);
+Console.WriteLine("*");
+//pyntet som instrueret
+Console.SetCursorPosition(10, 27);
+Console.Write("*");
+Console.SetCursorPosition(9, 28);
+Console.Write("*");
+Console.SetCursorPosition(11, 28);
+Console.Write("*");
+Console.SetCursorPosition(8, 29);
+Console.Write("*o o*");
+Console.SetCursorPosition(7, 30);
+Console.Write("*o o o*");
+Console.SetCursorPosition(6, 31);
+Console.Write("*********");
+Console.SetCursorPosition(10, 32);
+Console.WriteLine("*");
+Console.WriteLine("Tryk en tast for at afslutte");
+Console.ReadKey();
+//opgave 2.5
+Console.BackgroundColor = ConsoleColor.Black;
+Console.ForegroundColor = ConsoleColor.White;
+Console.Clear();
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("HR assignment");
+Console.SetCursorPosition(5, 40);
+Console.Write("CPR :");
+Console.SetCursorPosition(25, 40);
+Console.Write("Efternavn :");
+Console.SetCursorPosition(5, 42);
+Console.Write("Alder :");
+Console.SetCursorPosition(25, 42);
+Console.Write("Fornavne :");
+Console.SetCursorPosition(5, 44);
+Console.Write("Køn :");
+Console.SetCursorPosition(25, 44);
+Console.Write("Afdeling :");
+Console.SetCursorPosition(25, 46);
+Console.Write("Stilling :");
+Console.SetCursorPosition(5, 48);
+Console.Write("Skills :");
+Console.WriteLine();
+//assignment 2.6
+Console.SetCursorPosition(7, 55);
+Console.Write("********");
+Console.SetCursorPosition(6, 56);
+Console.Write("*        *");
+Console.SetCursorPosition(5, 57);
+Console.Write("************");
+Console.SetCursorPosition(5, 58);
+Console.Write(" *        * ");
+Console.SetCursorPosition(5, 59);
+Console.Write(" *        * ");
+Console.SetCursorPosition(6, 60);
+Console.Write("**********");
+Console.WriteLine();
+Console.ReadKey();
+Console.WriteLine();
+//assignment 3.1
+int x = 10;
+int y = 62;
+Console.SetCursorPosition(x, y);
+Console.Write("*");
+Console.SetCursorPosition(x-1, y+1);
+Console.Write("*o*");
+Console.SetCursorPosition(x - 2, y + 2);
+Console.Write("*ooo*");
+Console.SetCursorPosition(x-3, y+3);
+Console.Write("*ooooo*");
+Console.SetCursorPosition(x-4,y+4);
+Console.Write("*********");
+Console.SetCursorPosition(x, y+5);
+Console.Write("*");
+Console.WriteLine();
+Console.ReadKey();
+//asignment 3.2 lav 3 string variabler. name adress og phone med en 4. personinfo. Derefter print.
+Console.WriteLine();
+string name = "yeet";
+string adress = "the moon";
+string phone = "+00 00 00 00 00";
+string personinfo = name + ", " + adress + ", " + phone;
+Console.WriteLine(personinfo);
+//assignment 3.3 lav et program der ligger 3 tal sammen og beregner gennemsnittet. Derefter print til skærm.
+Console.WriteLine();
+int number1 = 4;
+int number2 = 13;
+int number3 = 7;
+int programCalculator = (number1 + number2 + number3) / 3;
+//written in console to show how the result is calculated.
+Console.WriteLine("int programCalculator = (number1 + number2 + number3) / 3;");
+Console.WriteLine(programCalculator);
+//assignment 3.4 string adder
+Console.WriteLine();
+string tempName = "Ahmed";
+int age = 16;
+double money = 423.34;
+Console.WriteLine("My name is " + tempName + ", i am " + age + " years old and i just earned kr. " + money + " by painting a fence");
+//asignment 3.5 double + farver
+Console.WriteLine();
+double cake = 23.56;
+double beer = 34.67;
+double hotdogs = 65.34;
+//left line of code first because of color change
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine("cake");
+Console.WriteLine("beer");
+Console.WriteLine("hotdogs");
+Console.WriteLine("total");
+//then the right side of code because of color change
+Console.ForegroundColor = ConsoleColor.Red;
+Console.SetCursorPosition(x + 10, y = 76);
+Console.WriteLine(cake);
+Console.SetCursorPosition(x + 10, y = 77);
+Console.WriteLine(beer);
+Console.SetCursorPosition(x + 10, y = 78);
+Console.WriteLine(hotdogs);
+Console.SetCursorPosition(x + 10, y = 79);
+Console.WriteLine(cake + beer + hotdogs);
+Console.ForegroundColor = ConsoleColor.White;
+//assignment 3.6 karakterliste
+//klasse indeholder 4 elever. de har hver fornavn og efternavn. derudover en karakter. lav variabler for disse og derefter beregn klasse gennemsnit. Print derefter disse til skærmen.
+string rasmus = "Rasmus Nielsen 9.2.";
+string enis = "Enis Andersen 4.3.";
+string karl = "Karl Hansen 2.62.";
+string christian = "Christian Pedersen 5.1.";
+double gennemsnit = 9.2 + 4.3 + 2.62 + 5.1;
+Console.WriteLine("elever: " + rasmus +" " + enis + " " + karl + " " + christian + " " + "klasse gennemsnit: " + gennemsnit);
+Console.WriteLine();

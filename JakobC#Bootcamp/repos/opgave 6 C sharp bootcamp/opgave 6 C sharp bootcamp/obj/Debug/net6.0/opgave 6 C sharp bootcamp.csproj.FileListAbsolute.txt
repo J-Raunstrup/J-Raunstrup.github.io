@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\bin\Debug\net6.0\opgave 6 C sharp bootcamp.exe
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\bin\Debug\net6.0\opgave 6 C sharp bootcamp.deps.json
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\bin\Debug\net6.0\opgave 6 C sharp bootcamp.runtimeconfig.json
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\bin\Debug\net6.0\opgave 6 C sharp bootcamp.dll
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\bin\Debug\net6.0\opgave 6 C sharp bootcamp.pdb
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\opgave 6 C sharp bootcamp.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\opgave 6 C sharp bootcamp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\opgave 6 C sharp bootcamp.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\opgave 6 C sharp bootcamp.AssemblyInfo.cs
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\opgave 6 C sharp bootcamp.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\opgave 6 C sharp bootcamp.dll
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\refint\opgave 6 C sharp bootcamp.dll
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\opgave 6 C sharp bootcamp.pdb
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\opgave 6 C sharp bootcamp.genruntimeconfig.cache
+C:\Users\admin\source\repos\opgave 6 C sharp bootcamp\opgave 6 C sharp bootcamp\obj\Debug\net6.0\ref\opgave 6 C sharp bootcamp.dll

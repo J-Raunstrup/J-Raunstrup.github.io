@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "opgave 6 C sharp bootcamp/1.0.0": {
+        "runtime": {
+          "opgave 6 C sharp bootcamp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "opgave 6 C sharp bootcamp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

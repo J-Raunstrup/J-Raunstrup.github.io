@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\bin\Debug\net6.0\opgave 4.1 jb.exe
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\bin\Debug\net6.0\opgave 4.1 jb.deps.json
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\bin\Debug\net6.0\opgave 4.1 jb.runtimeconfig.json
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\bin\Debug\net6.0\opgave 4.1 jb.dll
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\bin\Debug\net6.0\opgave 4.1 jb.pdb
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\opgave 4.1 jb.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\opgave 4.1 jb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\opgave 4.1 jb.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\opgave 4.1 jb.AssemblyInfo.cs
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\opgave 4.1 jb.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\opgave 4.1 jb.dll
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\refint\opgave 4.1 jb.dll
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\opgave 4.1 jb.pdb
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\opgave 4.1 jb.genruntimeconfig.cache
+C:\Users\admin\source\repos\opgave 4.1 jb\opgave 4.1 jb\obj\Debug\net6.0\ref\opgave 4.1 jb.dll

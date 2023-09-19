@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\bin\Debug\net6.0\Opgaver til lektion 15. switch case J.R..exe
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\bin\Debug\net6.0\Opgaver til lektion 15. switch case J.R..deps.json
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\bin\Debug\net6.0\Opgaver til lektion 15. switch case J.R..runtimeconfig.json
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\bin\Debug\net6.0\Opgaver til lektion 15. switch case J.R..dll
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\bin\Debug\net6.0\Opgaver til lektion 15. switch case J.R..pdb
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\Opgaver til lektion 15. switch case J.R..csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\Opgaver til lektion 15. switch case J.R..GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\Opgaver til lektion 15. switch case J.R..AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\Opgaver til lektion 15. switch case J.R..AssemblyInfo.cs
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\Opgaver til lektion 15. switch case J.R..csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\Opgaver til lektion 15. switch case J.R..dll
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\refint\Opgaver til lektion 15. switch case J.R..dll
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\Opgaver til lektion 15. switch case J.R..pdb
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\Opgaver til lektion 15. switch case J.R..genruntimeconfig.cache
+C:\Users\admin\source\repos\Opgaver til lektion 15. switch case J.R\Opgaver til lektion 15. switch case J.R\obj\Debug\net6.0\ref\Opgaver til lektion 15. switch case J.R..dll

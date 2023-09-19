@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\bin\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..exe
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\bin\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..deps.json
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\bin\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..runtimeconfig.json
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\bin\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..dll
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\bin\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..pdb
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..AssemblyInfo.cs
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..dll
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\refint\Flere opgaver C sharp opgave samling J.R..dll
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..pdb
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\Flere opgaver C sharp opgave samling J.R..genruntimeconfig.cache
+C:\Users\admin\source\repos\Flere opgaver C sharp opgave samling J.R\Flere opgaver C sharp opgave samling J.R\obj\Debug\net6.0\ref\Flere opgaver C sharp opgave samling J.R..dll

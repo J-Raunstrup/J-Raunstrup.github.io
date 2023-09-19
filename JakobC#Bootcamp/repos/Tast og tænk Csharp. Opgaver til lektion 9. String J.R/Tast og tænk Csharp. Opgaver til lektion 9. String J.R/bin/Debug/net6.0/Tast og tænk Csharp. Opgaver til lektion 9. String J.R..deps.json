@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Tast og tænk Csharp. Opgaver til lektion 9. String J.R./1.0.0": {
+        "runtime": {
+          "Tast og tænk Csharp. Opgaver til lektion 9. String J.R..dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tast og tænk Csharp. Opgaver til lektion 9. String J.R./1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

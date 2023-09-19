@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver til lektion 8. typen bool J.R.", "..\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R\Opgaver til lektion 8. typen bool J.R..csproj", "{AC679B26-67E6-40C1-9D6C-2A1D2AB94CAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC679B26-67E6-40C1-9D6C-2A1D2AB94CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC679B26-67E6-40C1-9D6C-2A1D2AB94CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC679B26-67E6-40C1-9D6C-2A1D2AB94CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC679B26-67E6-40C1-9D6C-2A1D2AB94CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5D48ABD-4828-4C64-B142-7BD3250829A4}
+	EndGlobalSection
+EndGlobal

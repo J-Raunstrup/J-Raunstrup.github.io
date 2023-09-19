@@ -1,0 +1,45 @@
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.csproj.AssemblyReference.cache
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.AssemblyInfoInputs.cache
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.AssemblyInfo.cs
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.csproj.CoreCompileInputs.cache
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.exe
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.deps.json
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.runtimeconfig.json
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.dll
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.pdb
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.dll
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/refint/Sidste opgave før grundforløbs prøve.dll
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.pdb
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.genruntimeconfig.cache
+C:/Users/admin/source/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/ref/Sidste opgave før grundforløbs prøve.dll
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.deps.json
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.runtimeconfig.json
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.dll
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.pdb
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.csproj.AssemblyReference.cache
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.AssemblyInfoInputs.cache
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.AssemblyInfo.cs
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.csproj.CoreCompileInputs.cache
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.dll
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/refint/Sidste opgave før grundforløbs prøve.dll
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.pdb
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.genruntimeconfig.cache
+/Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/ref/Sidste opgave før grundforløbs prøve.dll
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.deps.json
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.runtimeconfig.json
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.dll
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/bin/Debug/net6.0/Sidste opgave før grundforløbs prøve.pdb
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.csproj.AssemblyReference.cache
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.AssemblyInfoInputs.cache
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.AssemblyInfo.cs
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.csproj.CoreCompileInputs.cache
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.dll
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/refint/Sidste opgave før grundforløbs prøve.dll
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.pdb
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/Sidste opgave før grundforløbs prøve.genruntimeconfig.cache
+/Users/jens/Documents/Projects/JakobC#Bootcamp/repos/Sidste opgave før grundforløbs prøve/Sidste opgave før grundforløbs prøve/obj/Debug/net6.0/ref/Sidste opgave før grundforløbs prøve.dll
