@@ -21,16 +21,7 @@ div {
     border: none;
     color: black;
     border-radius: 2rem;
-    height: 5rem;
 }
-
-/*
-.fotomatic {
-    background: url(https://j-raunstrup.github.io/CodeCademy/F1C1_start/resources/images/banner-landingpage.jpg);
-}
-*/
-
-
 
 .fotomatic:hover {
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.555);
