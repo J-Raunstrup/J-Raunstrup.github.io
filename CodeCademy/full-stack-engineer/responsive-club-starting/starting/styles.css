@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-image: url(../starting/resources/images/photo-1685633224306-2a2b37050713.avif);
+    background-repeat: no-repeat;
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 1rem 0rem 1rem 0rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header a {
+    margin: 0rem 0.8rem 0rem 0.8rem;
+    font-size: 1.3rem;
+}
+
+a {
+    color: white;
+}
+
+.bigContainerDiv {
+    background: none;
+}
+
+div {
+    background-color: black;
+    width: 70%;
+    margin: auto;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+}
+
+.results div {
+    margin: 0rem;
+}
+
+/*
+img {
+    width: 13rem;
+    height: auto;
+}
+*/
+
+/* new */
+img {
+    width: 50%;
+    height: auto;
+}
+
+.briansGymImg, .eventsImg, .resultsImg1, .resultsImg2, .resultsImg3 {
+    height: auto;
+}
+
+.briansGymImg {
+    width: 30%;
+}
+
+.eventsImg {
+    width: 45%;
+}
+
+.resultsImg1, .resultsImg2, .resultsImg3 {
+    width: 75%;
+}
+
+/* new end*/
+
+h3 {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+footer {
+    margin: 2rem 0rem 0rem 0rem;
+    background-color: black;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: gray;
+}
+
+/*
+@media screen and (max-width: 1100px) {
+    img {
+        width: auto;
+        height: 100px;
+    }
+    .footerDiv {
+        flex-wrap: wrap;
+    }
+}
+*/
+
+@media screen and (max-width: 1100px) {
+    .briansGymImg {
+        width: 70%;
+    }
+
+    .eventsImg, .resultsImg1, .resultsImg2, .resultsImg3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .results {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}
