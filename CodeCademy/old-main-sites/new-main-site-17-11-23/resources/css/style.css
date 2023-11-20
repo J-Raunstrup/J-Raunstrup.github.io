@@ -69,3 +69,17 @@ header {
 i, img{
     padding: 0px 10px 10px 10px;
 }
+
+.bigProjectDiv img {
+    width: 100%;
+    height: auto;
+}
+
+.bigProjectDiv a {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-weight: bold;
+}
