@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+.biggerProjects img {
+    width: 40%;
+    height: auto;
+}
+
+.cSharpLogo {
+    width: 50px;
+    height: auto;
+}
+
+.powerBiLogo {
+    width: 40px;
+    height: auto;
+}
+
+.blenderLogo {
+    width: 40px;
+    height: auto;
+}
+
+.vsCodeLogo{
+    width: 40px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.biggerProjects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.biggerProjects li {
+    margin-bottom: 10px;
+}
+
+.biggerProjects ul {
+    padding-left: 10px;
+}
+
+.aboutMeHeader {
+    border-bottom: 2px solid black;
+}
+
+.programmingLogos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.programmingLogos div {
+    display: flex;
+    align-items: center;
+}
+
+i, img{
+    padding: 0px 10px 10px 10px;
+}
