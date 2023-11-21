@@ -6,6 +6,7 @@
     <title>Jens' new projects site</title>
     <link rel="stylesheet" href="./resources/css/style.css">
     <script src="https://kit.fontawesome.com/e5e3a9297d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./resources/javascript/script.js"></script>
 </head>
 <body>
     <!-- 
@@ -31,10 +32,17 @@
         deadline done by december 19. max.
      -->
     <header>
-        <a href="./resources/nestedPages/projectsPage/index.html"><p class="projectsHeader">Projects</p></a>
-        <a href="./index.html"><p class="aboutMeHeader">About me</p></a>
-        <a href="./resources/nestedPages/contactPage/index.html"><p class="contactHeader">Contact</p></a>
+        <a href="./resources/nestedPages/projectsPage/index.html" id="changeMe1"><p class="projectsHeader" id="change1">Projects</p></a>
+        <a href="./index.html" id="changeMe2"><p class="aboutMeHeader" id="change2">About me</p></a>
+        <a href="./resources/nestedPages/contactPage/index.html" id="changeMe3"><p class="contactHeader">Contact</p></a>
     </header>
+            <div class="DMDiv">
+            <p>Dark mode</p>
+            <label class="switch">
+                <input type="checkbox" onclick="toggleDarkMode()">
+                <span class="slider"></span>
+            </label>
+        </div>
     <div>
         <h1>About me</h1>
         <p>Hello my name is Jens. I'm a 22 year old programmer based in Copenhagen Denmark. I'm interested in learning different technologies that create value for users.</p>
