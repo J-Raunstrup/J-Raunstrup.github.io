@@ -6,13 +6,21 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./resources/css/style.css">
     <script src="https://kit.fontawesome.com/e5e3a9297d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./resources/javascript/script.js"></script>
 </head>
 <body>
     <header>
-        <a href="../projectsPage/index.html"><p class="projectsHeader">Projects</p></a>
-        <a href="../../../index.html"><p class="aboutMeHeader">About me</p></a>
-        <a href=""><p class="contactHeader">Contact</p></a>
+        <a href="../projectsPage/index.html" id="changeMe1"><p class="projectsHeader">Projects</p></a>
+        <a href="../../../index.html" id="changeMe2"><p class="aboutMeHeader">About me</p></a>
+        <a href="" id="changeMe3"><p class="contactHeader" id="change3">Contact</p></a>
     </header>
+    <div class="DMDiv">
+        <p>Dark mode</p>
+        <label class="switch">
+            <input type="checkbox" onclick="toggleDarkMode2()">
+            <span class="slider"></span>
+        </label>
+    </div>
     <h1>Contact</h1>
     <p>Feel free to contact me via the options listed below.</p>
     <h3>Email</h3>

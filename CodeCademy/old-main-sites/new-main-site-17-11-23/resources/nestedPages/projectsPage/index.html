@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="./resources/css/style.css">
+    <script type="text/javascript" src="./resources/javascript/script.js"></script>
 </head>
 <header>
-    <a href=""><p class="projectsHeader">Projects</p></a>
-    <a href="../../../index.html"><p class="aboutMeHeader">About me</p></a>
-    <a href="../contactPage/index.html"><p class="contactHeader">Contact</p></a>
+    <a href="" id="changeMe1"><p class="projectsHeader" id="change1">Projects</p></a>
+    <a href="../../../index.html" id="changeMe2"><p class="aboutMeHeader">About me</p></a>
+    <a href="../contactPage/index.html" id="changeMe3"><p class="contactHeader">Contact</p></a>
 </header>
 <body>
+  <div class="DMDiv">
+    <p>Dark mode</p>
+    <label class="switch">
+        <input type="checkbox" onclick="toggleDarkMode3()">
+        <span class="slider"></span>
+    </label>
+  </div>
     <h1>Projects</h1>
     <p>These are some of the things i have made</p>
     <p>Click on the buttons to see some of my projects: </p>
@@ -73,7 +81,7 @@
     <div class="githubRepos">
       <h2>My github repositories can also be viewed here: </h2>
       <p>Here the code behind my projects can be viewed. Its updated from time to time</p>
-      <a class="button" href="https://github.com/J-Raunstrup/J-Raunstrup.github.io">Click to see my code!</a>
+      <a class="button" href="https://github.com/J-Raunstrup/J-Raunstrup.github.io" id="whiteButton1">Click to see my code!</a>
     </div>
 </body>
 </html>
