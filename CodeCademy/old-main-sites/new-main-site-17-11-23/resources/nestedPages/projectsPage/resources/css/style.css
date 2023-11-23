@@ -94,6 +94,11 @@ a {
     color: black;
 }
 
+.dark-mode-button:hover {
+    background-color: black;
+    color: white;
+}
+
 
 /*
 taken fornm w3 schools.
