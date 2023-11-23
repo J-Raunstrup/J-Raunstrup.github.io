@@ -9,10 +9,19 @@ body {
 header {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .contactHeader {
     border-bottom: 2px solid black;
+}
+
+header a {
+    padding: 0px 20px 0px 20px;
+}
+
+.DMDiv p, .DMDiv label {
+    margin: 0px 30px 0px 30px;
 }
 
 a {
@@ -108,4 +117,46 @@ taken fornm w3 schools.
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+    /* media queries for desktop */
+    @media only screen and (min-width: 600px) {
+      body {
+          margin: 0px 20% 0px 20%;
+      }
+      /* bigger projects section */
+      .biggerProjects li {
+          font-size: 1.5rem;
+          margin: 30px 0px 30px 50px;
+      }
+      .portrait {
+          padding: 0px;
+      }
+      .biggerProjects {
+          justify-content: space-between;
+      }
+      .biggerProjects img {
+          width: 30%;
+      }
+      /* general css declarations */
+      h1 {
+          font-size: 2.5rem;
+      }
+      h2 {
+          font-size: 2rem;
+          margin-bottom: 0px;
+      }
+      h3 {
+          font-size: 1.8rem;
+      }
+      h4 {
+          font-size: 1.6rem;
+      }
+      p {
+          font-size: 1.3rem;
+      }
+      /* programming logos at end of page*/
+      .programmingLogos {
+          justify-content: center;
+      }
   }

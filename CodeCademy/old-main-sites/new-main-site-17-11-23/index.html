@@ -36,13 +36,17 @@
         <a href="./index.html" id="changeMe2"><p class="aboutMeHeader" id="change2">About me</p></a>
         <a href="./resources/nestedPages/contactPage/index.html" id="changeMe3"><p class="contactHeader">Contact</p></a>
     </header>
-        <div class="DMDiv">
-            <p>Dark mode</p>
-            <label class="switch">
-                <input type="checkbox" id="darkmode" onclick="toggleDarkMode1()">
-                <span class="slider"></span>
-            </label>
-        </div>
+    <div class="DMDiv">
+        <p>Dark mode:</p>
+        <label class="switch">
+            <input type="checkbox" id="darkmode" onclick="toggleDarkMode1()">
+                <!-- luke solution-->
+            <!-- 
+                <input type="checkbox" id="darkmode" onclick="updateDarkMode()">
+            -->
+            <span class="slider"></span>
+        </label>
+    </div>
     <div>
         <h1>About me</h1>
         <p>Hello my name is Jens. I'm a 22 year old programmer based in Copenhagen Denmark. I'm interested in learning different technologies that create value for users.</p>
@@ -50,31 +54,31 @@
         <p>I like to learn different things so i have dabbeled a little in power BI to try and visualize SQL data. I have also tried using blender a little to try out 3D modelling</p>
     </div>
     <div>
-        <h3>Bigger projects</h3>
+        <h2>Bigger projects</h2>
         <div class="biggerProjects">
             <ul>
                 <li>Brians Gym website <br>(a parody club site)</li>
                 <li>Roulette game <br>(C#)</li>
                 <li>SQL usage funnels <br>(SQL and presentation)</li>
             </ul>
-            <img src="./resources/images/billede af en selv sort hvid.jpeg" alt="image of me">
+            <img src="./resources/images/billede af en selv sort hvid.jpeg" alt="image of me" class="portrait">
         </div>
         <p>Press/click images below to go to corresponding sites</p>
-        <h4>Brians gym website</h4>
-        <div class="bigProjectDiv">
-            <a href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/responsive-club-starting/starting/"><img src="./resources/images/brianSiteImage-kopi.png" alt="brianSiteImage"></a>
-            <p><span>Description:</span> This project was an attempt to make a club site. It's also a parody so some sarcasm has been used.</p>
-            <p><span>Technologies used:</span> HTML, CSS, VS code text editor, github and github pages.</p>
-            <h4>Roulette project</h4>
-            <a href="https://github.com/J-Raunstrup/J-Raunstrup.github.io/blob/main/JakobC%23Bootcamp/repos/Roulettespil%20C%23/Roulettespil%20C%23/Program.cs"><img src="resources/images/rouletteProjectImg.png" alt=""></a>
-            <p><span>Description:</span> This project was an attempt to make a text based roulette game, where functions and built in methods were used.</p>
-            <p><span>Technologies used:</span> C# and visual studio</p>
-            <h4>SQL usage funnels</h4>
-            <a href="https://github.com/J-Raunstrup/J-Raunstrup.github.io/blob/main/CodeCademy/Analyze%20Data%20with%20SQL%20Skill%20Path/Usage%20Funnels%20With%20Warby%20Parker%20(SQL)/Usage-Funnels-With-Warby-Parker-sql.sql" class="aTest"><img src="./resources/images/SQLPowerPointImg.png" alt="sql powerpoint img" class="imgTest"></a>
-            <p><span>Description:</span> This was an attempt to work thorugh a dataset and find out how effective different marketing strategies were in leading to sales and where users lost interest.</p>
-            <p><span>Technologies used:</span> SQL, VS code, text document, PowerPoint and Excel</p>
+            <h3>Brians gym website</h3>
+            <div class="bigProjectDiv">
+                <a href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/responsive-club-starting/starting/"><img src="./resources/images/brianSiteImage-kopi.png" alt="brianSiteImage"></a>
+                <p><span>Description:</span> This project was an attempt to make a club site. It's also a parody so some sarcasm has been used.</p>
+                <p><span>Technologies used:</span> HTML, CSS, VS code text editor, github and github pages.</p>
+                <h3>Roulette project</h3>
+                    <a href="https://github.com/J-Raunstrup/J-Raunstrup.github.io/blob/main/JakobC%23Bootcamp/repos/Roulettespil%20C%23/Roulettespil%20C%23/Program.cs"><img src="resources/images/rouletteProjectImg.png" alt=""></a>
+                    <p><span>Description:</span> This project was an attempt to make a text based roulette game, where functions and built in methods were used.</p>
+                    <p><span>Technologies used:</span> C# and visual studio</p>
+                <h3>SQL usage funnels</h3>
+                    <a href="https://github.com/J-Raunstrup/J-Raunstrup.github.io/blob/main/CodeCademy/Analyze%20Data%20with%20SQL%20Skill%20Path/Usage%20Funnels%20With%20Warby%20Parker%20(SQL)/Usage-Funnels-With-Warby-Parker-sql.sql" class="aTest"><img src="./resources/images/SQLPowerPointImg.png" alt="sql powerpoint img" class="imgTest"></a>
+                    <p><span>Description:</span> This was an attempt to work thorugh a dataset and find out how effective different marketing strategies were in leading to sales and where users lost interest.</p>
+                    <p><span>Technologies used:</span> SQL, VS code, text document, PowerPoint and Excel</p>
+            </div>
         </div>
-    </div>
     <div class="humanLanguages">
         <h3>Human languages</h3>
         <p>English</p>
