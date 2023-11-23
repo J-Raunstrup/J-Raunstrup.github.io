@@ -27,7 +27,7 @@ a {
 }
 
 .blenderLogo {
-    width: 40px;
+    width: 50px;
     height: auto;
 }
 
@@ -103,7 +103,7 @@ img {
     filter: grayscale(100%);
 }
 
-
+/* dark mode code to apply in css. */
 .dark-mode {
     background-color: black;
     color: white;
@@ -116,6 +116,25 @@ img {
     border-bottom: 2px solid white;
 }
 
+.dark-mode-cSharpLogo {
+    content: url("../images/cSharpWhiteImg.png");
+}
+
+.dark-mode-powerBiLogo {
+    content: url("../images/powerBiWhiteLogo.png");
+    width: 70px;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+
+.dark-mode-blenderlogo {
+    content: url("../images/blenderWhite.png");
+    width: 60px;
+}
+
+.dark-mode-vsCode {
+    content: url("../images/vsCodeWhite.png");
+}
 
 /*
 taken fornm w3 schools.

@@ -50,11 +50,6 @@ div {
     border-radius: 2rem;
 }
 
-.fotomatic:hover {
-    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.555);
-    transition: box-shadow 0.5s;
-}
-
 .button, .whiteButton {
     background-color: black;
     border: solid rgb(104, 104, 104);

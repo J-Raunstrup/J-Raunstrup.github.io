@@ -1,5 +1,4 @@
 //own old attempt.
-
 function toggleDarkMode3() {
     var element = document.body;
     element.classList.toggle("dark-mode");
@@ -9,6 +8,8 @@ function toggleDarkMode3() {
     test2.classList.toggle("dark-mode");
     var test3 = document.getElementById("changeMe3");
     test3.classList.toggle("dark-mode");
+    var test4 = document.getElementById("whiteButton1");
+    test4.classList.toggle("dark-mode-button");
 }
 
 

@@ -50,6 +50,13 @@ a {
     border-bottom: 2px solid white;
 }
 
+.dark-mode-link {
+  color: lightblue;
+}
+
+.dark-mode-a {
+  color: white;
+}
 
 /*
 taken fornm w3 schools.

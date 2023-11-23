@@ -1,3 +1,4 @@
+//own old code.
 function toggleDarkMode1() {
     var element = document.body;
     element.classList.toggle("dark-mode");
@@ -7,6 +8,14 @@ function toggleDarkMode1() {
     test2.classList.toggle("dark-mode-header");
     var test3 = document.getElementById("changeMe3");
     test3.classList.toggle("dark-mode");
+    var test4 = document.getElementById("cSharpImg");
+    test4.classList.toggle("dark-mode-cSharpLogo");
+    var test5 = document.getElementById("powerBiImg");
+    test5.classList.toggle("dark-mode-powerBiLogo");
+    var test6 = document.getElementById("blenderImg");
+    test6.classList.toggle("dark-mode-blenderlogo");
+    var test7 = document.getElementById("vsCodeImg");
+    test7.classList.toggle("dark-mode-vsCode");
 }  
 
 

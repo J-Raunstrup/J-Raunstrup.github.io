@@ -1,5 +1,6 @@
   //own old code.
 function toggleDarkMode2() {
+    //header to darkmode.
     var element = document.body;
     element.classList.toggle("dark-mode");
     var test1 = document.getElementById("changeMe1");
@@ -8,6 +9,13 @@ function toggleDarkMode2() {
     test2.classList.toggle("dark-mode");
     var test3 = document.getElementById("change3");
     test3.classList.toggle("dark-mode-header");
+    //links to dark mode.
+    var test4 = document.getElementById("cLink");
+    test4.classList.toggle("dark-mode-link");
+    var test5 = document.getElementById("emailImg");
+    test5.classList.toggle("dark-mode-a");
+    var test6 = document.getElementById("linkdinImg");
+    test6.classList.toggle("dark-mode-a");
 }
 
 
