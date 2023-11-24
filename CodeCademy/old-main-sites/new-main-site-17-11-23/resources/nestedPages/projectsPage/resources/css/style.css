@@ -15,12 +15,7 @@ body {
 
 div {
     word-wrap: break-word; /* Internet Explorer 5.5+ */
-}
-
-.projectsList div {
     display: block;
-    width: 40%;
-    height: auto;
 }
 
 /* header section */
@@ -191,7 +186,7 @@ img {
 /* media queries for phones */
 @media only screen and (min-width: 600px) {
     .projectsList div {
-        width: 80%;
+        width: 60%;
         height: auto;
     }
     body {
