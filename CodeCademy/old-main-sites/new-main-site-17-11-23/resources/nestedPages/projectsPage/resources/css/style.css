@@ -38,6 +38,7 @@ header a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 0px;
   }
 
 /* dark mode section */
