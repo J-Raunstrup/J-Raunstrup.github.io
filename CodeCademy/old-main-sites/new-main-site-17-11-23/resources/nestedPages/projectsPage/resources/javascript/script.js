@@ -1,13 +1,17 @@
 //own old attempt.
 function toggleDarkMode3() {
+  //general dark mode declaration
     var element = document.body;
     element.classList.toggle("dark-mode");
+    //dark mode header with underline declaration
     var test1 = document.getElementById("change1");
     test1.classList.toggle("dark-mode-header");
+    //dark mode header declarations
     var test2 = document.getElementById("changeMe2");
     test2.classList.toggle("dark-mode");
     var test3 = document.getElementById("changeMe3");
     test3.classList.toggle("dark-mode");
+    //dark mode button declaration
     var test4 = document.getElementById("whiteButton1");
     test4.classList.toggle("dark-mode-button");
 }

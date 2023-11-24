@@ -1,13 +1,18 @@
 //own old code.
 function toggleDarkMode1() {
+  //general dark mode declaration
     var element = document.body;
     element.classList.toggle("dark-mode");
+    //dark mode header1 declaration
     var test1 = document.getElementById("changeMe1");
     test1.classList.toggle("dark-mode");
+    //header with dark mode underline declaration
     var test2 = document.getElementById("change2");
     test2.classList.toggle("dark-mode-header");
+    //dark mode header3 declaration
     var test3 = document.getElementById("changeMe3");
     test3.classList.toggle("dark-mode");
+    //dark mode images declarations
     var test4 = document.getElementById("cSharpImg");
     test4.classList.toggle("dark-mode-cSharpLogo");
     var test5 = document.getElementById("powerBiImg");
