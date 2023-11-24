@@ -41,7 +41,7 @@ Here you can find everything I have programmed and built with code so far. It co
 
 ### When did i start programming? ⏳
 
-I have been programming since around September 1. 2022. 
+I have been programming since around September 1. 2022 
 
 Feel free to have a look at my code
 
