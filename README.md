@@ -16,26 +16,30 @@ Here you can find everything I have programmed and built with code so far. It co
     <li>C#</li>
     <li>SQL</li>
     <li>Command Line</li>
+    <li>Markdown</li>
 </ul>
 
-### Also contains files made with 🗄️:
+### Other software used 🗄️
 
 <ul>
-    <li>Markdown</li>
+    <li>Visual Studio Code</li>
+    <li>Visual Studio</li>
     <li>Microsoft Excel</li>
     <li>Microsoft PowerPoint</li>
     <li>Git</li>
+    <li>Github</li>
+    <li>Terminal</li>
     <li>Text documents</li>
 </ul>
 
-### Thins I’m working on adding to this repository ⚒️:
+### Thins I’m working on adding to this repository ⚒️
 
 <ul>
     <li>My blender projects</li>
     <li>My Microsoft powerBI projects</li>
 </ul>
 
-### When did i start programming ⏳?
+### When did i start programming? ⏳
 
 I have been programming since around September 1. 2022. 
 
