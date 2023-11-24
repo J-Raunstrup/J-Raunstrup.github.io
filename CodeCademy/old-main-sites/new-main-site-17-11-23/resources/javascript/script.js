@@ -21,8 +21,28 @@ function toggleDarkMode1() {
     test6.classList.toggle("dark-mode-blenderlogo");
     var test7 = document.getElementById("vsCodeImg");
     test7.classList.toggle("dark-mode-vsCode");
+    var test8 = document.getElementById("bPUT1");
+    test8.classList.toggle("dark-mode-bTUT");
+    var test9 = document.getElementById("bPUT2");
+    test9.classList.toggle("dark-mode-bTUT");
+    var test10 = document.getElementById("bPUT3");
+    test10.classList.toggle("dark-mode-bTUT");
+    return true;
 }  
+ if (toggleDarkMode1 === true) {
+  window.localStorage.setItem("testMan", "dark");
+  console.log(toggleDarkMode1);
+ } else if (toggleDarkMode1 === false) {
+  window.localStorage.setItem("testMan", "light");
+  console.log(toggleDarkMode1);
+ } else {
+  window.localStorage.setItem("testMan", "grey");
+  console.log(toggleDarkMode1);
+ }
 
+localStorage.setItem("users",
+JSON.stringify({ name: "Karl Hadwen", food: "pizza"})
+);
 
 //luke solution
 /*
