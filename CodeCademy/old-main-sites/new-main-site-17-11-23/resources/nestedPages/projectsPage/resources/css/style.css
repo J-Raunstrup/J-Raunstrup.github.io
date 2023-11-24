@@ -17,6 +17,12 @@ div {
     word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
+.projectsList div {
+    display: block;
+    width: 40%;
+    height: auto;
+}
+
 /* header section */
 header {
     display: flex;
@@ -109,6 +115,15 @@ a {
 .button:hover {
     background-color: white;
     color: black
+}
+
+/* img section */
+img {
+    filter: grayscale(100%);
+}
+
+.projectsList .fotomatic {
+    background: darkgray;
 }
 
 
