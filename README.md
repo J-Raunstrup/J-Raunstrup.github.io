@@ -1,6 +1,6 @@
 # J-Raunstrup.github.io
 
-## Hello! Welcome to my github page!
+## Hello! Welcome to my github page! 👋
 
 This is my github page. Most of what I have made, is built with knowledge I have acquired from CodeCademy courses and a programming course from a C# teacher.
 
