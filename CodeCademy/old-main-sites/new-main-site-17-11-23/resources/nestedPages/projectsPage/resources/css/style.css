@@ -82,7 +82,7 @@ header a {
 }
 
 .fotomatic h3, .teaCozy h3, .colmarAcademy h3, .grundforløbsPrøve h3, .excursion h3, .htmlAndCssCheatsheet h3, .websiteDesignSystem h3,
- .briansGarage h3, .briansGym h3, .numberGuesserSite h3 {
+ .briansGarage h3, .briansGym h3 {
     margin: 0px;
     padding-top: 1.8rem;
     padding-bottom: 1.8rem;
@@ -153,8 +153,16 @@ a {
     margin-bottom: 0px;
 }
 
+.numberGuesserH31 h3 {
+    padding-bottom: 0px;
+}
+
 .numberGuesserH32 {
     margin-top: 0px;
+}
+
+.numberGuesserH32 h3 {
+    padding-top: 0px;
 }
 
 .projectsList .fotomatic {
@@ -258,7 +266,6 @@ a {
 
 /* w3 schools end */
 
-
 /* media queries */
 /* media queries for phones */
 @media only screen and (min-width: 600px) {
@@ -324,5 +331,27 @@ a {
     /* programming logos at end of page*/
     .programmingLogos {
         justify-content: center;
+    }
+}
+
+    /* media query for tablet. */
+    @media only screen and (min-width: 600px) and (max-width: 780px) {
+        body {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+
+    @media only screen and (min-width: 780px) {
+        .miniBody {
+            margin-left: 0px;
+            margin-right: 0px;;
+        }
+    }
+
+  /* media query for header */
+  @media only screen and (max-width: 374px) {
+    header a {
+        font-size: 14px;
     }
 }

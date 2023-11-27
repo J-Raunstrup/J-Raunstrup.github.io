@@ -221,16 +221,70 @@ img {
 
 /* w3 schools end */
 
+/* media queries */
+
+@media only screen and (max-width: 655px) and (min-width: 580px) {
+    header p {
+        font-size: 1rem;
+    }
+
+    body p, .biggerProjects li {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1270px) {
+    .biggerProjects li {
+        font-size: 1.5rem;
+        margin: 30px 0px 30px 50px;
+    }
+}
+
+@media only screen and (max-width: 1270px) and (min-width: 930px) {
+    .biggerProjects p {
+        font-size: 1rem;
+    }
+    .biggerProjects li {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 930px) {
+    .biggerProjects img {
+        width: 5rem;
+    }
+
+    .biggerProjects p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .programmingLogos div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header a {
+        font-size: 14px;
+    }
+    .biggerProjects {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    ul {
+        margin-left: 10px;
+    }
+}
+
 /* media queries for desktop */
   @media only screen and (min-width: 600px) {
     body {
         margin: 0px 20% 0px 20%;
     }
     /* bigger projects section */
-    .biggerProjects li {
-        font-size: 1.5rem;
-        margin: 30px 0px 30px 50px;
-    }
     .portrait {
         padding: 0px;
     }
