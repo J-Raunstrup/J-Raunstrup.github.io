@@ -72,6 +72,10 @@ header a {
     border-radius: 2rem;
 }
 
+.projectsList p {
+
+}
+
 /* button section */
 .button, .whiteButton {
     background-color: black;
@@ -143,43 +147,43 @@ a {
 
 .projectsList .fotomatic {
     background: darkgray;
-    background-image: url(../images/fotomatic.jpg);
+    background-image: url("../images/fotomatic.jpg");
 }
 
 .projectsList .teaCozy {
-    background-image: url(../images/teacozy.webp);
+    background-image: url("../images/teacozy.webp");
 }
 
 .projectsList .colmarAcademy {
-    background-image: url(../images/colmarCademy.jpg);
+    background-image: url("../images/colmarCademy.jpg");
 }
 
 .projectsList .grundforløbsPrøve {
-    background-image: url(../images/eventCentrum.png);
+    background-image: url("../images/eventCentrum.png");
 }
 
 .projectsList .excursion {
-    background-image: url(../images/excursion2.webp);
+    background-image: url("../images/excursion2.webp");
 }
 
 .projectsList .htmlAndCssCheatsheet {
-    background-image: url(../images/lightBlackPaper.avif);
+    background-image: url("../images/lightBlackPaper.avif");
 }
 
 .projectsList .websiteDesignSystem {
-    background-image: url(../images/lightBlackPaper.avif);
+    background-image: url("../images/lightBlackPaper.avif");
 }
 
 .projectsList .briansGarage {
-    background-image: url(../images/briansGarage.jpg);
+    background-image: url("../images/briansGarage.jpg");
 }
 
 .projectsList .briansGym {
-    background-image: url(../images/briansGym.avif);
+    background-image: url("../images/briansGym.avif");
 }
 
 .projectsList .numberGuesserSite {
-    background-image: url(../images/lightBlackPaper.avif);
+    background-image: url("../images/lightBlackPaper.avif");
 }
 
 
