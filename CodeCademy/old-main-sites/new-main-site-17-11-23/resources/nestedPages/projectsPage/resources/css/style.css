@@ -73,17 +73,20 @@ header a {
 }
 
 /* spacing on projectsList text */
-.projectsList p {
+
+
+.fotomatic p, .teaCozy p, .colmarAcademy p, .grundforløbsPrøve p, .excursion p, .htmlAndCssCheatsheet p, .websiteDesignSystem p,
+ .briansGarage p, .briansGym p, .numberGuesserSite p {
     margin: 0px;
     padding-bottom: 1.3rem;
 }
 
-.projectsList h3 {
+.fotomatic h3, .teaCozy h3, .colmarAcademy h3, .grundforløbsPrøve h3, .excursion h3, .htmlAndCssCheatsheet h3, .websiteDesignSystem h3,
+ .briansGarage h3, .briansGym h3, .numberGuesserSite h3 {
     margin: 0px;
     padding-top: 1.8rem;
     padding-bottom: 1.8rem;
 }
-
 
 /* button section */
 .button, .whiteButton {
