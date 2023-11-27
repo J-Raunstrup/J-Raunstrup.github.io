@@ -55,16 +55,6 @@ header a {
     border-bottom: 2px solid white;
 }
 
-.dark-mode-button {
-    background-color: white;
-    color: black;
-}
-
-.dark-mode-button:hover {
-    background-color: black;
-    color: white;
-}
-
 /* dark mode div elements section */
 .DMDiv p, .DMDiv label {
     margin: 0px 30px 0px 30px;
@@ -95,10 +85,7 @@ header a {
 }
 
 /* white button */
-.whiteButton {
-    color: black;
-    background-color: white;
-}
+
 
 /* links in buttons section */
 a {
@@ -112,13 +99,87 @@ a {
     color: black
 }
 
+.dark-mode-button {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode-button:hover {
+    background-color: black;
+    color: white;
+}
+
 /* img section */
-img {
+.fotomatic:hover, .teaCozy:hover, .colmarAcademy:hover, .grundforløbsPrøve:hover, .excursion:hover, .htmlAndCssCheatsheet:hover, .websiteDesignSystem:hover,
+ .briansGarage:hover, .briansGym:hover, .numberGuesserSite:hover {
     filter: grayscale(100%);
+}
+
+.fotomatic:active, .teaCozy:active, .colmarAcademy:active, .grundforløbsPrøve:active, .excursion:active, .htmlAndCssCheatsheet:active, .websiteDesignSystem:active,
+ .briansGarage:active, .briansGym:active, .numberGuesserSite:active {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.projectsList .htmlAndCssCheatsheet:hover, .websiteDesignSystem:hover, .numberGuesserSite:hover {
+    filter: brightness(80%);
+}
+
+.projectsList a {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.htmlAndCssCheatsheet a, .websiteDesignSystem a, .numberGuesserSite a {
+    text-shadow: 2px 2px 4px black;
+}
+
+.numberGuesserH31 {
+    margin-bottom: 0px;
+}
+
+.numberGuesserH32 {
+    margin-top: 0px;
 }
 
 .projectsList .fotomatic {
     background: darkgray;
+    background-image: url(../images/fotomatic.jpg);
+}
+
+.projectsList .teaCozy {
+    background-image: url(../images/teacozy.webp);
+}
+
+.projectsList .colmarAcademy {
+    background-image: url(../images/colmarCademy.jpg);
+}
+
+.projectsList .grundforløbsPrøve {
+    background-image: url(../images/eventCentrum.png);
+}
+
+.projectsList .excursion {
+    background-image: url(../images/excursion2.webp);
+}
+
+.projectsList .htmlAndCssCheatsheet {
+    background-image: url(../images/lightBlackPaper.avif);
+}
+
+.projectsList .websiteDesignSystem {
+    background-image: url(../images/lightBlackPaper.avif);
+}
+
+.projectsList .briansGarage {
+    background-image: url(../images/briansGarage.jpg);
+}
+
+.projectsList .briansGym {
+    background-image: url(../images/briansGym.avif);
+}
+
+.projectsList .numberGuesserSite {
+    background-image: url(../images/lightBlackPaper.avif);
 }
 
 
