@@ -32,13 +32,6 @@ Here you can find everything I have programmed and built with code so far. It co
     <li>Text documents</li>
 </ul>
 
-### Thins I’m working on adding to this repository ⚒️
-
-<ul>
-    <li>My blender projects</li>
-    <li>My Microsoft powerBI projects</li>
-</ul>
-
 ### When did i start programming? ⏳
 
 I have been programming since around September 1. 2022 
