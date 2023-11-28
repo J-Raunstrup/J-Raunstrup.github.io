@@ -29,7 +29,6 @@ Here you can find everything I have programmed and built with code so far. It co
     <li>Git</li>
     <li>Github</li>
     <li>Terminal</li>
-    <li>Text documents</li>
 </ul>
 
 ### When did i start programming? ⏳
