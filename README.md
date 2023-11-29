@@ -30,8 +30,6 @@ Here you can find everything I have programmed and built with code so far. It co
     <li>Github</li>
     <li>Terminal</li>
 </ul>
-<!-- below removed because its stressfull to keep in. maybe relevant later.-->
-<!-- ### Things im currently working on 🛠️ -->
 
 ### When did i start programming? ⏳
 
