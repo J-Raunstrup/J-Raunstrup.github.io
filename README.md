@@ -33,7 +33,7 @@ Here you can find everything I have programmed and built with code so far. It co
 
 ### Things im currently working on 🛠️
 
-I currently working on learning to implement JavaScript to websites. So they can become more interactive
+I'm currently working on learning to implement JavaScript to websites. So they can become more interactive
 
 ### When did i start programming? ⏳
 
