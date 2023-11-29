@@ -135,9 +135,12 @@ span {
      
 }
 
+/*
 img {
-    /* filter: grayscale(100%); */
+    filter: grayscale(100%); 
 }
+*/
+
 
 /* dark mode code to apply with javascript from this css. */
 .dark-mode {
