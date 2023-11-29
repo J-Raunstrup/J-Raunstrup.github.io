@@ -127,16 +127,16 @@ a {
 
 /* img section */
 .fotomatic:hover, .teaCozy:hover, .colmarAcademy:hover, .grundforløbsPrøve:hover, .excursion:hover, .htmlAndCssCheatsheet:hover, .websiteDesignSystem:hover,
- .briansGarage:hover, .briansGym:hover, .numberGuesserSite:hover {
+ .briansGarage:hover, .briansGym:hover, .numberGuesserSite:hover, .blenderProjects:hover, .rouletteGame:hover, .sqlUsageFunnels:hover {
     filter: grayscale(100%);
 }
 
 .fotomatic:active, .teaCozy:active, .colmarAcademy:active, .grundforløbsPrøve:active, .excursion:active, .htmlAndCssCheatsheet:active, .websiteDesignSystem:active,
- .briansGarage:active, .briansGym:active, .numberGuesserSite:active {
+ .briansGarage:active, .briansGym:active, .numberGuesserSite:active, .blenderProjects:active, .rouletteGame:active, .sqlUsageFunnels:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-.projectsList .htmlAndCssCheatsheet:hover, .websiteDesignSystem:hover, .numberGuesserSite:hover {
+.projectsList .htmlAndCssCheatsheet:hover, .websiteDesignSystem:hover, .numberGuesserSite:hover, .rouletteGame:hover, .sqlUsageFunnels:hover {
     filter: brightness(80%);
 }
 
@@ -204,6 +204,18 @@ a {
 
 .projectsList .numberGuesserSite {
     background-image: url("../images/lightBlackPaper.avif");
+}
+
+.projectsList .rouletteGame {
+    background-image: url("../images/lightBlackPaper.avif"); 
+}
+
+.projectsList .sqlUsageFunnels {
+    background-image: url("../images/lightBlackPaper.avif");
+}
+
+.projectsList .blenderProjects {
+    background-image: url("../images/Rocket\ Rodeo.png");
 }
 
 

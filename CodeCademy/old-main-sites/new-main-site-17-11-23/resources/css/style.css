@@ -101,6 +101,21 @@ span {
     font-weight: bold;
 }
 
+.markdownLink a {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/* big projects div's div section */
+.bigProjectDiv div {
+    border-bottom: solid lightgray 1px;
+    padding-bottom: 30px;
+}
+
+.bigProjectDiv h3 {
+    padding-top: 30px;
+}
+
 /* programming logos section */
 .programmingLogos {
     display: flex;
@@ -115,12 +130,13 @@ span {
 }
 
 /* programming logo padding section */
-i, img{
-    padding: 0px 10px 10px 10px;
+.programmingLogos i, .programmingLogos img {
+     padding: 0px 10px 10px 10px;
+     
 }
 
 img {
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
 /* dark mode code to apply with javascript from this css. */
