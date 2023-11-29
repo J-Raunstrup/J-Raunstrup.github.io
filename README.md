@@ -31,6 +31,10 @@ Here you can find everything I have programmed and built with code so far. It co
     <li>Terminal</li>
 </ul>
 
+### Things im currently working on 🛠️
+
+I currently working on learning to implement JavaScript to websites. So they can become more interactive
+
 ### When did i start programming? ⏳
 
 I have been programming since around September 1. 2022 
