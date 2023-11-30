@@ -1,66 +1,332 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Lato&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 
+/* Define the light theme (default) */
+:root {
+    --bg-color: white; /* Background color */
+    --text-color: black; /* Text color */
+  }
+  
+  /* Define the dark theme */
+  .dark-theme {
+    --bg-color: black; /* Background color */
+    --text-color: white; /* Text color */
+  }
+  /* Apply the theme colors to the body element */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+
+/* general css section */
 body {
-    text-align: center;
     font-family: 'Rubik', sans-serif;
-    background-color: rgb(73 73 73);
-    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
 }
 
-div {
-    margin: 2% 2% 2% 2%;
-    word-wrap: break-word; /* Internet Explorer 5.5+ */
-}
-
-.projectsList div {
-    background-color: gainsboro;
-    padding: 0.25rem;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border: none;
-    color: black;
-    border-radius: 2rem;
-}
-
-.fotomatic:hover {
-    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.555);
-    transition: box-shadow 0.5s;
-}
-
-.button {
-    background-color: rgb(33, 136, 19);
-    border: solid rgb(104, 104, 104);
-    border-width: 0.2rem;
-    padding: 1rem 1rem 1rem 1rem;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-    display: inline-block;
+.biggerProjects img, .bigProjectDiv img {
+    padding: 0px;
 }
 
 a {
+    color: black;
+    text-decoration: none;
+}
+
+.biggerProjectsUnderText {
+    color: rgb(47, 47, 47);
+    margin-top: 0px;
+}
+
+/* image css section */
+.biggerProjects img {
+    width: 40%;
+    height: auto;
+}
+
+.cSharpLogo {
+    width: 50px;
+    height: auto;
+}
+
+.powerBiLogo {
+    width: 40px;
+    height: auto;
+}
+
+.blenderLogo {
+    width: 50px;
+    height: auto;
+}
+
+.vsCodeLogo{
+    width: 40px;
+    height: auto;
+}
+
+/* header section */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header a {
+    padding: 0px 20px 0px 20px;
+}
+
+/* dark mode div containing button and dark mode paragraph*/
+.DMDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+/* dark mode div and button declarations */
+.DMDiv p, .DMDiv label {
+    margin: 0px 30px 0px 30px;
+}
+
+/* bigger projects section */
+.biggerProjects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.biggerProjects li {
+    margin-bottom: 10px;
+}
+
+.biggerProjects ul {
+    padding-left: 10px;
+}
+
+.aboutMeHeader {
+    border-bottom: 2px solid black;
+}
+
+/* big projects description div section */
+.bigProjectDiv img {
+    width: 100%;
+    height: auto;
+}
+
+.bigProjectDiv a {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.markdownLink a {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/* big projects div's div section */
+.bigProjectDiv div {
+    border-bottom: solid lightgray 1px;
+    padding-bottom: 30px;
+}
+
+.bigProjectDiv h3 {
+    padding-top: 30px;
+}
+
+/* programming logos section */
+.programmingLogos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.programmingLogos div {
+    display: flex;
+    align-items: center;
+}
+
+/* programming logo padding section */
+i, img {
+     padding: 0px 10px 10px 10px;
+     
+}
+
+/*
+img {
+    filter: grayscale(100%); 
+}
+*/
+
+
+/* dark mode code to apply with javascript from this css. */
+.dark-mode {
+    background-color: black;
     color: white;
-    font-size: 1rem;
-    text-decoration: none;   
 }
 
-.button:hover {
+.dark-mode-header {
+    background-color: black;
+    color: white;
+    border-bottom: none;
+    border-bottom: 2px solid white;
+}
+
+/* dark mode declarations for logos that dont change automatically */
+.dark-mode-cSharpLogo {
+    content: url("../images/cSharpWhiteImg.png");
+}
+
+.dark-mode-powerBiLogo {
+    content: url("../images/powerBiWhiteLogo.png");
+    width: 70px;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+
+.dark-mode-blenderlogo {
+    content: url("../images/blenderWhite.png");
+    width: 60px;
+}
+
+.dark-mode-vsCode {
+    content: url("../images/vsCodeWhite.png");
+}
+
+.dark-mode-bTUT {
+    color: rgb(167, 167, 167);
+}
+
+/* below taken from w3 schools */
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Rubik', sans-serif;
+    margin: 4px 30px;
+}
+
+.button1 {
     background-color: white;
-    color: rgb(44, 173, 27);
-}
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .button1:hover {
+    background-color: #555555;
+    color: white;
+  }
 
-@media only screen and (min-width: 600px) {
-    .projectsList div {
-        width: 40%;
-        height: auto;
+  /* w3 schools end*/
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 655px) and (min-width: 580px) {
+    header p {
+        font-size: 1rem;
+    }
+
+    body p, .biggerProjects li {
+        font-size: 1rem;
     }
 }
 
-@media only screen and (max-width: 600px) {
-    button {
-        width: 80%;
+@media only screen and (min-width: 1270px) {
+    .biggerProjects li {
+        font-size: 1.5rem;
+        margin: 30px 0px 30px 50px;
     }
-    div {
-        margin: 20% 2% 20% 2%;
+}
+
+@media only screen and (max-width: 1270px) and (min-width: 930px) {
+    .biggerProjects p {
+        font-size: 1rem;
+    }
+    .biggerProjects li {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 930px) {
+    .biggerProjects img {
+        width: 5rem;
+    }
+
+    .biggerProjects p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .programmingLogos div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header a {
+        font-size: 14px;
+    }
+    .biggerProjects {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    ul {
+        margin-left: 10px;
+    }
+}
+
+/* media queries for desktop */
+  @media only screen and (min-width: 600px) {
+    body {
+        margin: 0px 20% 0px 20%;
+    }
+    /* bigger projects section */
+    .portrait {
+        padding: 0px;
+    }
+    .biggerProjects {
+        justify-content: space-between;
+    }
+    .biggerProjects img {
+        width: 30%;
+    }
+    /* general css declarations */
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    h4 {
+        font-size: 1.6rem;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+    /* programming logos at end of page*/
+    .programmingLogos {
+        justify-content: center;
     }
 }

@@ -1,90 +1,141 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Jens' projects site</title>
-      <link rel="stylesheet" href="resources/CSS/style.css">
-      <link rel="icon" href="https://www.freeiconspng.com/thumbs/list-icon/list-icon-32.png" type="image/x-icon">
-    </head>
-    <body>
-      <!-- test 2 -->
-      <h1>My projects</h1>
-      <h2>Hello. My name is Jens. </h2>
-      <p>I have been programming for a little while</p>
-      <p>These are some of the things i have made</p>
-      <p>Click on the buttons to see some of my projects: </p>
-      <div class="projectsList">
-        <div class="fotomatic">
-          <h3>Camera site: Fotomatic</h3>
-            <span><p>This can be viewed on dekstop and mobile</p></span>
-            <span><p>link: https://j-raunstrup.github.io/CodeCademy/F1C1_start/</p></span>
-            <a class="button" href="https://j-raunstrup.github.io/CodeCademy/F1C1_start/">Click to go to site!</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jens' new projects site</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <script src="https://kit.fontawesome.com/e5e3a9297d.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <!-- 
+        burde vise billeder af de forskellige teknologier jeg kunne endten i starten eller slutningen. bl.a. chrome dev tools. sql, css, html, javscirpt, git, github.  command line,
+        C#, maybe visual studio code. maybe a little blender. though maybe best to exclude. maybe node though i think best to exclude for now. maybe also include a little power bi on the site.
+
+        also apart form that maybe a good idea to have a picture of me. could be me staring towards some of the things i think i might be good at or the things i have made.
+        maybe mention the sql powerpoints. maybe mention brians gym or brians garage. maybe showcase javsacript method library. those are 3 different things or maybe the C#
+        roulette game. maybe change it to english instead of danish. So its more readable for recruiters. Though not sure. those are 4 projects im pretty proud of. maybe also include the
+        power bi project.
+        
+        maybe impliment a dark mode with javacsript. if not a counter to see how long i have been programming. 1 month max. 
+        
+        maybe add a description of me as a person short. And for how long i have been programming. maybe also add human languages and write. english, danish fluently and a ittle german. 
+        those could be in a list of pointers with round circles.
+        maybe also add the projects as links to where they are.
+
+        Maybe add a seperate site that has all of my projects listed in order. Maybe the old design could be implemented for this. with miwers suggestion with proejcts as buttons.
+        maybe those projects could have an img as the background for the button. then they could be used on the new site to reuse the code and make it simpler.
+
+        maybe also add a contact page. so 3 pages maybe. projects. about me, and contact. unsure if a fourth one should be added
+        
+        missing the dark mode keep function and maybe the page breaks.
+        deadline done by december 19. max.
+     -->
+     <!-- header section -->
+    <header>
+        <a href="./resources/nestedPages/projectsPage/index.html" id="changeMe1"><p class="projectsHeader" id="change1">Projects</p></a>
+        <a href="./index.html" id="changeMe2"><p class="aboutMeHeader" id="change2">About me</p></a>
+        <a href="./resources/nestedPages/contactPage/index.html" id="changeMe3"><p class="contactHeader">Contact</p></a>
+    </header>
+    <!-- dark mode button -->
+    <div class="DMDiv">
+        <p>Dark mode:</p>
+        <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
+        <!-- 
+        <label class="switch">
+            
+                <input type="checkbox" onclick="updateDarkMode()">
+            
+            <span class="slider"></span>
+        </label>
+        -->
+        <button class="button button1" onclick="updateDarkMode()">Switch</button>
+    </div>
+    <!-- about me section -->
+    <div>
+        <h1>About me</h1>
+        <p>Hello my name is Jens. I'm a 22 year old programmer based in Copenhagen Denmark. I'm interested in learning different technologies that create value for users.</p>
+        <p>I have made a couple of websites with HTML, CSS and javascript. I have also tried analyzing and organizing datasets with SQL and made applications in C#.</p>
+        <p>I like to learn different things so I have dabbled a little in power BI to try and visualize SQL data. I have also tried using blender a little to try out 3D modelling</p>
+    </div>
+    <!-- bigger projects -->
+    <div>
+        <h2>Bigger projects</h2>
+        <div class="biggerProjects">
+            <ul>
+                <li>Brians Gym website <br><p class="biggerProjectsUnderText" id="bPUT1">(a parody club site)</p></li>
+                <li>Power Bi visualization <br><p class="biggerProjectsUnderText" id="bPUT2">(Microsoft Power Bi)</p></li>
+                <li>CodeCademy SQL article <br><p class="biggerProjectsUnderText" id="bPUT3">(SQL and markdown)</p></li>
+            </ul>
+            <img src="./resources/images/billede af en selv farve rettet.jpg" alt="image of me" class="portrait">
         </div>
-        <div class="teaCozy">
-        <h3>Tea store site: TeaCozy</h3>
-          <p>This can be viewed on desktop only</p>
-          <p>Link: https://j-raunstrup.github.io/CodeCademy/TeaCozy/</p>
-          <a class="button" href="https://j-raunstrup.github.io/CodeCademy/TeaCozy/">Click to go to site!</a>
+        <p>Press/click images below to go to corresponding sites</p>
+            <!-- brians gym project seciton-->
+            <div class="bigProjectDiv">
+                <h3>Brians gym website</h3>
+                <div>
+                <a href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/responsive-club-starting/starting/"><img src="./resources/images/brianSiteImage-kopi.png" alt="brianSiteImage"></a>
+                <p><span>Description:</span> This project was an attempt to make a club site. It's also a parody so some sarcasm has been used.</p>
+                <p><span>Technologies used:</span> HTML, CSS, VS code text editor, github and github pages.</p>
+                <!-- roulette project seciton-->
+            </div>
+                <h3>Power Bi visualization</h3>
+                <div>
+                    <a href="https://github.com/J-Raunstrup/J-Raunstrup.github.io/tree/main/DataVisualization/microsoftPowerBi"><img src="resources/images/powerBiScreenshot.png" alt=""></a>
+                    <p><span>Description:</span> This project was an attempt to try and visualize an SQL dataset and make it interactive.</p>
+                    <p><span>Technologies used:</span> Microsoft Power Bi and SQL.</p>
+                </div>
+                <!-- SQL usage funnel project seciton-->
+                <h3>CodeCademy SQL article</h3>
+                <div>
+                    <a href="https://www.codecademy.com/resources/docs/sql/window-functions/ntile" class="aTest"><img src="./resources/images/codecademyArticle.png" alt="sql powerpoint img" class="imgTest"></a>
+                    <p><span>Description:</span> This was an attempt to teach other people about a coding concept and work in a public repository with other people.</p>
+                    <p><span>Technologies used:</span> SQL, GitHub, Markdown, VS code.</p>
+                    <p class="markdownLink"><span>Link to markdown file:</span> <a href="https://github.com/Codecademy/docs/blob/main/content/sql/concepts/window-functions/terms/ntile/ntile.md">Click to go to markdown file</a></p>
+                </div>
+            </div>
         </div>
-        <div class="colmarAcademy">
-          <h3>Learn to code site: ColmarAcademy</h3>
-          <p>This can be viewed on desktop and mobile</p>
-          <p>Link: https://j-raunstrup.github.io/CodeCademy/ColmarAcademy </p>
-          <a class="button" href="https://j-raunstrup.github.io/CodeCademy/ColmarAcademy">Click to go to site!</a>
+    <!-- human languages section -->
+    <div class="humanLanguages">
+        <h3>Languages</h3>
+        <p>English</p>
+        <p>Danish</p>
+        <p>German (tourist level)</p>
+    </div>
+    <!-- programming languages section -->
+    <div class="programmingLanguages">
+        <h3>Skills</h3>
+        <!-- programming logos -->
+        <div class="programmingLogos">
+            <!-- logo row 1 -->
+            <div>
+                <div class="nes1">
+                <i class="fa-brands fa-html5 fa-3x"></i>
+                <i class="fa-brands fa-css3-alt fa-3x"></i>
+                <i class="fa-brands fa-js fa-3x"></i>
+                </div>
+                <div class="nes1">
+                <i class="fa-solid fa-database fa-3x"></i>
+                <img src="./resources/images/cSharpLogo.png" alt="c sharp logo" class="cSharpLogo" id="cSharpImg">
+                <i class="fa-brands fa-github fa-3x"></i>
+            </div>
+            </div>
+            <!-- logo row 2 -->
+            <div>
+                <div class="nes2">
+                <i class="fa-brands fa-git fa-3x"></i>
+                <i class="fa-solid fa-terminal fa-2x"></i>
+                <img src="./resources/images/powerBi.svg.png" alt="powerBi logo" class="powerBiLogo" id="powerBiImg">
+                </div>
+                <br>
+                <div class="nes2">
+                <img src="./resources/images/blenderLogo.svg" alt="blenderLogo" class="blenderLogo" id="blenderImg">
+                <i class="fa-brands fa-chrome fa-2x"></i>
+                <img src="./resources/images/visualStudioCodeLogo.png" alt="vsCode logo" class="vsCodeLogo" id="vsCodeImg">
+            </div>
+            </div>
         </div>
-        <div class="grundforløbs prøve">
-          <h3>Events for companies site: Event centrum</h3>
-          <p>(Earlier basic course exam for webintegrator)</p>
-          <p>This can be viewed on desktop only</p>
-          <p>Link: https://j-raunstrup.github.io/Webintegrator-grundforløbsprøve</p>
-          <a class="button" href="https://j-raunstrup.github.io/Webintegrator-grundforløbsprøve">Click to go to site!</a>
-        </div>
-        <div class="excursion">
-          <h3>Phone app annoncement site: Excursion</h3>
-          <p>This can be viewed on desktop and mobile</p>
-          <p>Link: https://j-raunstrup.github.io/CodeCademy/excursion</p>
-          <a class="button" href="https://j-raunstrup.github.io/CodeCademy/excursion">Click to go to site!</a>
-        </div>    
-        <div class="htmlAndCssCheatsheet">
-          <h3>Cheatsheet for css layout</h3>
-          <p>This can be viewed on desktop and mobile</p>
-          <p>Link: https://j-raunstrup.github.io/CodeCademy/full-stack-engineer-backup-19092023/html-css-cheatsheet-starting</p>
-          <a class="button" href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/html-css-cheatsheet-starting">Click to go to site!</a>
-        </div>
-        <div class="websiteDesignSystem">
-          <h3>Website design system site</h3>
-          <p>Showing an example of deciding on colours fonts and the basic elements of a site</p>
-          <p>This can be viewed on desktop only</p>
-          <p>Link: https://j-raunstrup.github.io/CodeCademy/full-stack-engineer-backup-19092023/website-design-system-starting/starting</p>
-          <a class="button" href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/website-design-system-starting/starting">Click to go to site!</a>
-        </div>
-        <div class="briansGarage">
-          <h3>Company site: brians garage (parody)</h3>
-            <p>This can be viewed on desktop and mobile</p>
-            <p>Link: https://j-raunstrup.github.io/CodeCademy/full-stack-engineer-backup-19092023/flexbox-business-site-starting</p>
-            <a class="button" href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/flexbox-business-site-starting">Click to go to site!</a>
-        </div>
-        <div class="briansGym">
-          <h3>Club site: brians gym (parody)</h3>
-          <p>Thsi can be viewed on desktop and mobile</p>
-          <p>Link: https://j-raunstrup.github.io/CodeCademy/full-stack-engineer-backup-19092023/responsive-club-starting/starting</p>
-          <a class="button" href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/responsive-club-starting/starting">Click to go to site!</a>
-        </div>
-        <div class="numberGuesserSite">
-          <h3>Number guesser site: (Implements a little javascript)</h3>
-            <p>I wrote the javascript from specified assignments. The css and html was already completed. I made the javascript</p>
-            <p>This can be viewed on desktop only</p>
-            <p>Link: https://j-raunstrup.github.io/CodeCademy/full-stack-engineer-backup-19092023/number-guesser-starting</p>
-            <a class="button" href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/number-guesser-starting">Click to go to site!</a>
-        </div>
-      </div>
-      <div class="githubRepos">
-        <h2>My github repositories can also be viewed here: </h2>
-        <p>Here the code behind my projects can be viewed. Its updated from time to time</p>
-        <p>Link: https://github.com/J-Raunstrup/J-Raunstrup.github.io</p>
-        <a class="button" href="https://github.com/J-Raunstrup/J-Raunstrup.github.io">Click to see my code!</a>
-      </div>
-      <h4>Best regards. -Jens</h4>
-    </body>
+    </div>
+    <script type="text/javascript" src="./resources/javascript/script.js"></script>
+</body>
 </html>
