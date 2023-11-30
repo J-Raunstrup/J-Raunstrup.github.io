@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="./resources/css/style.css">
-    <link rel="icon" href="./resources/images/list-icon.png" type="image/x-icon">
+    <script type="text/javascript" src="./resources/javascript/script.js"></script>
 </head>
 <body>
   <!-- header section-->
@@ -17,16 +17,14 @@
   <!-- dark mode button -->
   <div class="DMDiv">
     <p>Dark mode:</p>
-        <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
-        <!-- 
-        <label class="switch">
-            
-                <input type="checkbox" onclick="updateDarkMode()">
-            
-            <span class="slider"></span>
-        </label>
-        -->
-        <button class="button button1" onclick="updateDarkMode()">Switch</button>
+    <label class="switch">
+        <input type="checkbox" onclick="toggleDarkMode3()">
+          <!-- luke solution-->
+            <!-- 
+              <input type="checkbox" id="darkmode" onclick="updateDarkMode()">
+            -->
+        <span class="slider"></span>
+    </label>
   </div>
   <!-- projects desciption section-->
   <div class="miniBody">
@@ -140,6 +138,5 @@
       <a class="button" href="https://github.com/J-Raunstrup/J-Raunstrup.github.io" id="whiteButton1">Click to see my code!</a>
     </div>
   </div>
-  <script type="text/javascript" src="./resources/javascript/script.js"></script>
 </body>
 </html>
