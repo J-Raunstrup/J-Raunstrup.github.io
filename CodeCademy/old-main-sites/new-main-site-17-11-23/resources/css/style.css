@@ -201,6 +201,8 @@ img {
     color: rgb(167, 167, 167);
 }
 
+/* below taken from w3 schools */
+
 .button {
     border: none;
     color: white;
@@ -214,6 +216,8 @@ img {
     cursor: pointer;
     border-radius: 15px;
     -webkit-tap-highlight-color: transparent;
+    font-family: 'Rubik', sans-serif;
+    margin: 4px 30px;
 }
 
 .button1 {
@@ -226,6 +230,8 @@ img {
     background-color: #555555;
     color: white;
   }
+
+  /* w3 schools end*/
 
 
 
