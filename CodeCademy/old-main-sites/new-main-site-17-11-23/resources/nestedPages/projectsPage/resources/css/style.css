@@ -3,14 +3,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Lato&family=Rubik&display=swap');
 
+/* Define the light theme (default) */
+:root {
+    --bg-color: white; /* Background color */
+    --text-color: black; /* Text color */
+  }
+  
+  /* Define the dark theme */
+  .dark-theme {
+    --bg-color: black; /* Background color */
+    --text-color: white; /* Text color */
+  }
+  /* Apply the theme colors to the body element */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+
 /* general css section */
 body {
     font-family: 'Rubik', sans-serif;
     margin: 0px 0px 0px 0px;
     padding: 0px 10px 0px 10px;
     text-align: center;
-    background-color: white;
-    color: black;
 }
 
 div {
