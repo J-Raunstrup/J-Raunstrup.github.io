@@ -40,16 +40,16 @@
     <!-- dark mode button -->
     <div class="DMDiv">
         <p>Dark mode:</p>
+        <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
+        <!-- 
         <label class="switch">
-            <!-- 
-            <input type="checkbox" id="toggle">
-            -->
-                <!-- luke solution-->
             
-                <input type="checkbox" id="darkmode" onclick="updateDarkMode()">
+                <input type="checkbox" onclick="updateDarkMode()">
             
             <span class="slider"></span>
         </label>
+        -->
+        <button class="button button1" onclick="updateDarkMode()">Switch mode</button>
     </div>
     <!-- about me section -->
     <div>
