@@ -1,0 +1,30 @@
+body {
+    font-size: 15rem;
+}
+
+
+.boxOf9 {
+    display: flex;
+}
+
+.boxOf9 div {
+    background-color: gray;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+}
+
+.o, .x {
+    margin: 0px;
+    display: inline-flex;
+}
+
+p {
+    margin: 0px;
+}
+
+.miniBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

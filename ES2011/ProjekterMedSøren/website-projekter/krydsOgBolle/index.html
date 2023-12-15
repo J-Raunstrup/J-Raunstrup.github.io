@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KrydsOgBolle2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="x">
+        <p id="x1" draggable="true" ondragstart="drag(event)">X</p>
+        <p id="x2" draggable="true" ondragstart="drag(event)">X</p>
+        <p id="x3" draggable="true" ondragstart="drag(event)">X</p>
+    </div>
+    <div class="o">
+        <p id="o1" draggable="true" ondragstart="drag(event)">O</p>
+        <p id="o2" draggable="true" ondragstart="drag(event)">O</p>
+        <p id="o3" draggable="true" ondragstart="drag(event)">O</p>
+    </div>
+    <div class="boxOf9">
+        <div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" class="miniBox"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" class="miniBox"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" class="miniBox"></div>
+        </div>
+        <div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" class="miniBox"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" class="miniBox"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" class="miniBox"></div>
+        </div>
+        <div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" class="miniBox"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" class="miniBox"></div>
+            <div ondrop="drop(event)" ondragover="allowDrop(event)" class="miniBox"></div>
+        </div>
+    </div>
+</body>
+<!-- 
+    link to more info. alot of things missing. got to the point where ondragover
+    https://www.w3schools.com/html/html5_draganddrop.asp -->
+</html>
