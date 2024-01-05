@@ -48,8 +48,14 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  padding: 1.875rem;
+  /* bootstrap needed this to change to work.*/
+  /*padding: 1.875rem;*/
+  padding: 24.5px;
   width: auto;
+}
+
+.content a {
+  text-decoration: none;
 }
 
 header .logo {
@@ -62,6 +68,7 @@ header .logo {
 
 header nav ul {
   display: flex;
+  margin-bottom: 0px;
 }
 
 nav li {
@@ -74,11 +81,13 @@ nav a {
   font-size: 1rem;
   color: #4a4a4a;
   font-family: "Roboto-Regular";
+  text-decoration: none;
 }
 
 header .icon {
   width: 1rem;
-  padding-left: .75rem;
+  vertical-align: baseline;
+  margin-left: 10px;
 }
 
 header .mobile {
@@ -104,6 +113,8 @@ header .mobile {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin: 8px 0px 8px 0px;
+    padding-left: 0px;
   }
 
   header .mobile li {
@@ -190,6 +201,7 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    padding: 0px;
   }
 
   #sign-up-cta .content {
@@ -212,6 +224,7 @@ header .mobile {
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
+    overflow: hidden;
   }
 
   #sign-up-cta h1 {
@@ -408,12 +421,17 @@ header .mobile {
   #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
+    padding: 0px;
   }
 
   #quotes-section quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
+  }
+
+  #quotes-section {
+    padding-right: 0px;
   }
 }
 
@@ -423,6 +441,7 @@ footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
   height: 0.875rem;
+  height: auto;
 }
 
 footer .content {
@@ -444,5 +463,11 @@ footer .location {
 @media only screen and (min-width: 760px) {
   footer .content {
     font-size: .625rem;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  footer {
+    height: auto;
   }
 }
