@@ -42,15 +42,15 @@ do
 
     int[] listeMedTal = modtagBetType(tagImodBetType);
 
-    int iVariabelTilModtagBetBeløb = modtagBetBeløb(saldo);
+    int variabelTilModtagBetBeløb = modtagBetBeløb(saldo);
 
     int tilfældigtTal = returnEtTilfældigtTal();
 
     bool gevinstEllerEj = sammenlignTilfældigttalMedBrugerBet(listeMedTal, tilfældigtTal);
 
-    int iVariabelTilGevinstUdregning = beregnGevinst(gevinstEllerEj, tagImodBetType, iVariabelTilModtagBetBeløb);
+    int variabelTilGevinstUdregning = beregnGevinst(gevinstEllerEj, tagImodBetType, variabelTilModtagBetBeløb);
 
-    saldo = opdaterSaldo(saldo, iVariabelTilGevinstUdregning);
+    saldo = opdaterSaldo(saldo, variabelTilGevinstUdregning);
 } while (spilIgen(saldo) != false);
 
 
@@ -70,27 +70,27 @@ static string bettingMenu()
     Console.WriteLine();
     Console.Write("Skriv venligst svar her (1/2/3/4/5/6/7) -> ");
 
-    string sTagImodBetType = Console.ReadLine();
-    return sTagImodBetType;
+    string tagImodBetType = Console.ReadLine();
+    return tagImodBetType;
 }
 
 static int modtagBetBeløb(int saldo)
 {
     //modtag indtastning. gør det til int. derefter retuner.
     Console.Write("Hvor meget skal der spilles for? Maks beløb er {0}. -> ", saldo);
-    string sbrugerBetBeløb = Console.ReadLine();
+    string brugerBetBeløb = Console.ReadLine();
     Console.WriteLine();
-    int ibrugerBetBeløb = Convert.ToInt32(sbrugerBetBeløb);
-    if (ibrugerBetBeløb > saldo)
+    int brugerBetBeløbInt = Convert.ToInt32(brugerBetBeløb);
+    if (brugerBetBeløbInt > saldo)
     {
-        Console.WriteLine("Bet beløbet på {0} kan der ikke bettes for da det overskrider saldoens beløb på {1}.", ibrugerBetBeløb, saldo);
+        Console.WriteLine("Bet beløbet på {0} kan der ikke bettes for da det overskrider saldoens beløb på {1}.", brugerBetBeløbInt, saldo);
         return 0;
     }
     else 
     {
-        Console.WriteLine("Betten på {0} er modtaget.", ibrugerBetBeløb);
+        Console.WriteLine("Betten på {0} er modtaget.", brugerBetBeløbInt);
         Console.WriteLine("Hjulet begyndte at spille");
-        return ibrugerBetBeløb;
+        return brugerBetBeløbInt;
     }
 }
 
@@ -98,92 +98,92 @@ static int returnEtTilfældigtTal()
 {
     //ruller et tilfældigt tal fra 0 til 37 og retunerer derefter det tal.
     Random rand = new Random();
-    int iRandomTal = rand.Next(0, 36);
-    Console.WriteLine("Der blev rullet et tilfældigt tal. Tallet er: {0}", iRandomTal);
-    return iRandomTal;
+    int randomTal = rand.Next(0, 36);
+    Console.WriteLine("Der blev rullet et tilfældigt tal. Tallet er: {0}", randomTal);
+    return randomTal;
 }
 
-static int[] modtagBetType(string sTagImodBetType)
+static int[] modtagBetType(string tagImodBetType)
 {
-    int[] aRødeTal = { 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36 };
-    int[] aSorteTal = { 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35 };
-    int[] aTomArray = { };
+    int[] rødeTal = { 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36 };
+    int[] sorteTal = { 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35 };
+    int[] tomArray = { };
 
     //array loop til 1-18 array
-    int[] aTal1Til18 = new int[18];
-    int iMindsteTal = 0;
-    for (int i = 0; i < aTal1Til18.Length; i++)
+    int[] tal1Til18 = new int[18];
+    int mindsteTal = 0;
+    for (int i = 0; i < tal1Til18.Length; i++)
     {
-        iMindsteTal = iMindsteTal + 1;
-        aTal1Til18[i] = iMindsteTal;
+        mindsteTal = mindsteTal + 1;
+        tal1Til18[i] = mindsteTal;
     }
 
     //array loop til 19-36 array
-    int[] aTal19Til36 = new int[18];
-    iMindsteTal = 18;
-    for (int i = 0; i < aTal1Til18.Length; i++)
+    int[] tal19Til36 = new int[18];
+    mindsteTal = 18;
+    for (int i = 0; i < tal1Til18.Length; i++)
     {
-        iMindsteTal = iMindsteTal + 1;
-        aTal19Til36[i] = iMindsteTal;
+        mindsteTal = mindsteTal + 1;
+        tal19Til36[i] = mindsteTal;
     }
 
     //array loop til ulige tal.
-    int[] aUligeTal = new int[18];
-    iMindsteTal = -1;
-    for (int i = 0; i < aUligeTal.Length; i++)
+    int[] uligeTal = new int[18];
+    mindsteTal = -1;
+    for (int i = 0; i < uligeTal.Length; i++)
     {
-        iMindsteTal = iMindsteTal + 2;
-        aUligeTal[i] = iMindsteTal;
+        mindsteTal = mindsteTal + 2;
+        uligeTal[i] = mindsteTal;
     }
 
     //array loop til lige tal.
-    int[] aLigeTal = new int[18];
-    iMindsteTal = 0;
-    for (int i = 0; i < aLigeTal.Length; i++)
+    int[] ligeTal = new int[18];
+    mindsteTal = 0;
+    for (int i = 0; i < ligeTal.Length; i++)
     {
-        iMindsteTal = iMindsteTal + 2;
-        aLigeTal[i] = iMindsteTal;
+        mindsteTal = mindsteTal + 2;
+        ligeTal[i] = mindsteTal;
     }
 
     //definering af enkelttalsarray
-    int[] aEnkeltTal = new int[1];
+    int[] enkeltTal = new int[1];
 
-    if (sTagImodBetType == "1")
+    if (tagImodBetType == "1")
     {
-        return aRødeTal;
+        return rødeTal;
     }
-    else if (sTagImodBetType == "2")
+    else if (tagImodBetType == "2")
     {
-        return aSorteTal;
+        return sorteTal;
     }
-    else if (sTagImodBetType == "3")
+    else if (tagImodBetType == "3")
     {
-        return aTal1Til18;
+        return tal1Til18;
     }
-    else if (sTagImodBetType == "4")
+    else if (tagImodBetType == "4")
     {
-        return aTal19Til36;
+        return tal19Til36;
     }
-    else if (sTagImodBetType == "5")
+    else if (tagImodBetType == "5")
     {
-        return aUligeTal;
+        return uligeTal;
     }
-    else if (sTagImodBetType == "6")
+    else if (tagImodBetType == "6")
     {
-        return aLigeTal;
+        return ligeTal;
     }
-    else if (sTagImodBetType == "7") 
+    else if (tagImodBetType == "7") 
     {
         Console.Write("Hvilket enkelt tal skal der satses på? Skriv et helt tal mellem 1 og 36 her -> ");
-        string sMindsteTal = Console.ReadLine();
-        iMindsteTal = Convert.ToInt32(sMindsteTal);
-        aEnkeltTal[0] = iMindsteTal;
-        return aEnkeltTal;
+        string mindsteTalstring = Console.ReadLine();
+        int mindsteTalInt = Convert.ToInt32(mindsteTalstring);
+        enkeltTal[0] = mindsteTalInt;
+        return enkeltTal;
     }
     else
     {
         Console.WriteLine("Ukendt svar");
-        return aTomArray;
+        return tomArray;
     }
 }
 
@@ -205,23 +205,23 @@ static bool sammenlignTilfældigttalMedBrugerBet(int[] listeMedTal, int tilfæld
     return false;
 }
 
-static int beregnGevinst(bool gevinstEllerEj, string sTagImodBetType, int iVariabelTilModtagBetBeløb) 
+static int beregnGevinst(bool gevinstEllerEj, string tagImodBetType, int variabelTilModtagBetBeløb) 
 {
     if (gevinstEllerEj == false)
     {
         Console.WriteLine("Der er blevet tabt. Kontoen er opdateret");
-        return 0 - iVariabelTilModtagBetBeløb;
+        return 0 - variabelTilModtagBetBeløb;
     }
     else
     {
         Console.WriteLine("Der er gevinst! Kontoen er opdateret");
-        if (sTagImodBetType == "1" || sTagImodBetType == "2" || sTagImodBetType == "3" || sTagImodBetType == "4" || sTagImodBetType == "5" || sTagImodBetType == "6")
+        if (tagImodBetType == "1" || tagImodBetType == "2" || tagImodBetType == "3" || tagImodBetType == "4" || tagImodBetType == "5" || tagImodBetType == "6")
         {
-            return 2 * iVariabelTilModtagBetBeløb;
+            return 2 * variabelTilModtagBetBeløb;
         }
-        else if (sTagImodBetType == "7")
+        else if (tagImodBetType == "7")
         {
-            return 35 * iVariabelTilModtagBetBeløb;
+            return 35 * variabelTilModtagBetBeløb;
         }
         else
         {
@@ -231,13 +231,13 @@ static int beregnGevinst(bool gevinstEllerEj, string sTagImodBetType, int iVaria
     }
 }
 
-static int opdaterSaldo(int saldo, int iVariabelTilGevinstUdregning)
+static int opdaterSaldo(int saldo, int variabelTilGevinstUdregning)
 {
     //bruger saldo til at minuses med "modtagBetBeløb" eller ganges med odsne vinningen. som f.eks. er *35 ved rigtigt gæt på et enkelt tal. Måske returner den også saldo. bare
     //den opdaterede version.
 
-    Console.WriteLine("Den nye saldo er {0}", saldo + iVariabelTilGevinstUdregning);
-    return saldo + iVariabelTilGevinstUdregning;
+    Console.WriteLine("Den nye saldo er {0}", saldo + variabelTilGevinstUdregning);
+    return saldo + variabelTilGevinstUdregning;
 }
 
 static bool spilIgen(int saldo)
@@ -245,14 +245,14 @@ static bool spilIgen(int saldo)
     //looper alle de andre metoder igennem igen hvis svaret til spil igne er ja med en opdateret saldo. Hvis bruger beløb bliver 0 kan der ikke spilles igne medmindre
     //programmet genstartes. Ellers stopper programmet.
     Console.Write("Ønskes der at spilles igen? (J/N) -> ");
-    string sVilBrugerSpilleIgen = Console.ReadLine();
-    if (sVilBrugerSpilleIgen == "j" || sVilBrugerSpilleIgen == "J" && saldo > 0)
+    string vilBrugerSpilleIgen = Console.ReadLine();
+    if (vilBrugerSpilleIgen == "j" || vilBrugerSpilleIgen == "J" && saldo > 0)
     {
         Console.WriteLine("Der er blevet svaret ja. Programmet vil gentages.");
         Console.Clear();
         return true;
     }
-    else if (sVilBrugerSpilleIgen == "j" || sVilBrugerSpilleIgen == "J" && saldo <= 0)
+    else if (vilBrugerSpilleIgen == "j" || vilBrugerSpilleIgen == "J" && saldo <= 0)
     {
         Console.WriteLine("Beklager der er ikke flere penge at spille for. Spillet stopper");
         return false;
