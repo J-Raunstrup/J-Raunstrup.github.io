@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{BAB421ED-2665-4D37-9C6F-638E141CFAA0}|Default">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Roulettespil C#/Program.cs">
     <Files>
-      <File FileName="Roulettespil C#/Program.cs" Line="149" Column="9" />
+      <File FileName="Roulettespil C#/Program.cs" Line="50" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,9 +18,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Roulettespil_220C_223 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Roulettespil_220C_223 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

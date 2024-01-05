@@ -43,3 +43,18 @@ C:/Users/admin/source/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/ref
 /Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.pdb
 /Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.genruntimeconfig.cache
 /Users/jens/Documents/Projects/C# projekter fra Jakob bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/ref/Roulettespil C#.dll
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.csproj.AssemblyReference.cache
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.AssemblyInfoInputs.cache
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.AssemblyInfo.cs
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.csproj.CoreCompileInputs.cache
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.dll
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/refint/Roulettespil C#.dll
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.pdb
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/bin/Debug/net6.0/Roulettespil C#
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/bin/Debug/net6.0/Roulettespil C#.deps.json
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/bin/Debug/net6.0/Roulettespil C#.runtimeconfig.json
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/bin/Debug/net6.0/Roulettespil C#.dll
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/bin/Debug/net6.0/Roulettespil C#.pdb
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/Roulettespil C#.genruntimeconfig.cache
+/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/obj/Debug/net6.0/ref/Roulettespil C#.dll

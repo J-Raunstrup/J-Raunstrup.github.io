@@ -38,9 +38,9 @@ Console.WriteLine();
 
 do
 {
-    string sTagImodBetType = bettingMenu();
+    string tagImodBetType = bettingMenu();
 
-    int[] listeMedTal = modtagBetType(sTagImodBetType);
+    int[] listeMedTal = modtagBetType(tagImodBetType);
 
     int iVariabelTilModtagBetBeløb = modtagBetBeløb(saldo);
 
@@ -48,7 +48,7 @@ do
 
     bool gevinstEllerEj = sammenlignTilfældigttalMedBrugerBet(listeMedTal, tilfældigtTal);
 
-    int iVariabelTilGevinstUdregning = beregnGevinst(gevinstEllerEj, sTagImodBetType, iVariabelTilModtagBetBeløb);
+    int iVariabelTilGevinstUdregning = beregnGevinst(gevinstEllerEj, tagImodBetType, iVariabelTilModtagBetBeløb);
 
     saldo = opdaterSaldo(saldo, iVariabelTilGevinstUdregning);
 } while (spilIgen(saldo) != false);
@@ -146,7 +146,7 @@ static int[] modtagBetType(string sTagImodBetType)
     }
 
     //definering af enkelttalsarray
-    int[.] aEnkeltTal = new int[1];
+    int[] aEnkeltTal = new int[1];
 
     if (sTagImodBetType == "1")
     {
