@@ -118,6 +118,30 @@ const updateDarkMode = () => {
 
 
 
+//code fra test
+function change() // no ';' here
+{
+    var elem = document.getElementById("myButton1");
+    if (elem.innerHTML=="🌙") elem.innerHTML = "☀️";
+    else elem.innerHTML = "🌙";
+}
+
+let buttonSwitchValue = localStorage.getItem("buttonSwitchValue") == "true";
+
+if (buttonSwitchValue) {
+  change();
+}
+
+const updateButtonText = () => {
+  buttonSwitchValue = !buttonSwitchValue;
+  localStorage.setItem("buttonSwitchValue", buttonSwitchValue);
+  change();
+}
+
+
+
+
+
 //Amit Ghosh Anto solution
 /*
 function toggleDarkMode() {

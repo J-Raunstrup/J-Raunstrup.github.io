@@ -37,21 +37,23 @@
         <a href="./index.html" id="changeMe2"><p class="aboutMeHeader" id="change2">About me</p></a>
         <a href="./resources/nestedPages/projectsPage/index.html" id="changeMe1"><p class="projectsHeader" id="change1">Projects</p></a>
         <a href="./resources/nestedPages/contactPage/index.html" id="changeMe3"><p class="contactHeader">Contact</p></a>
-    </header>
-    <!-- dark mode button -->
-    <div class="DMDiv">
-        <p>Dark mode:</p>
-        <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
-        <!-- 
-        <label class="switch">
-            
-                <input type="checkbox" onclick="updateDarkMode()">
-            
-            <span class="slider"></span>
-        </label>
+            <!-- dark mode button -->
+        <div class="DMDiv">
+        <!-- removed as part of per suggestion
+            <p>Dark mode:</p> 
         -->
-        <button class="button button1" onclick="updateDarkMode()">Switch</button>
-    </div>
+            <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
+            <!-- 
+            <label class="switch">
+                
+                    <input type="checkbox" onclick="updateDarkMode()">
+                
+                <span class="slider"></span>
+            </label>
+            -->
+            <button class="button button1" id="myButton1" onclick="updateDarkMode();updateButtonText()">☀️</button>
+        </div>
+    </header>
     <!-- about me section -->
     <div>
         <h1>About me</h1>

@@ -44,6 +44,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 10px;
+    align-items: center;
 }
 
 .contactHeader {
@@ -119,13 +121,51 @@ header a {
 
   /* w3 schools end*/
 
+  @media only screen and (max-width: 655px) and (min-width: 580px) {
+    header p {
+        font-size: 1rem;
+    }
 
+    body p, .biggerProjects li {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    header p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    header p {
+        font-size: 14px
+    }
+}
+
+  @media only screen and (min-width: 730px) {
+    body {
+        margin: 0px 20% 0px 20%;
+    }
+}
+
+@media only screen and (min-width: 595px) and (max-width: 730px) {
+    body {
+        margin: 0px 5% 0px 5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    header a {
+        padding: 0px;
+    }
+    .DMDiv button {
+        margin: 0px;
+    }
+}
 
 /* media queries for desktop */
     @media only screen and (min-width: 600px) {
-      body {
-          margin: 0px 20% 0px 20%;
-      }
       /* bigger projects section */
       .biggerProjects li {
           font-size: 1.5rem;
