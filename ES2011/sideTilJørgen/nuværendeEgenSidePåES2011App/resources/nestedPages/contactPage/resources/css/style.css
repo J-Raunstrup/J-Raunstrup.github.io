@@ -40,7 +40,7 @@ a {
 }
 
 /* header section */
-.header {
+.topDivH {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -50,7 +50,7 @@ a {
     border-bottom: 2px solid black;
 }
 
-.header a {
+.topDivH a {
     padding: 0px 20px 0px 20px;
 }
 
@@ -165,7 +165,7 @@ a {
 
   /* media query for header */
   @media only screen and (max-width: 374px) {
-    .header a {
+    .topDivH a {
         font-size: 14px;
     }
 }

@@ -34,7 +34,7 @@ div {
 }
 
 /* header section */
-.header {
+.topDivH {
     display: flex;
     justify-content: space-evenly;
     color: black;
@@ -46,7 +46,7 @@ div {
     border-bottom: 2px solid black;
 }
 
-.header a {
+.topDivH a {
     padding: 0px 20px 0px 20px;
 }
 
@@ -341,7 +341,7 @@ a {
             margin-left: 0px;
             margin-right: 0px;
         }
-        .header {
+        .topDivH {
             margin: 0px 20% 0px 20%;
         }
         .DMDiv {
@@ -358,7 +358,7 @@ a {
 
   /* media query for header */
   @media only screen and (max-width: 374px) {
-    .header a {
+    .topDivH a {
         font-size: 14px;
     }
 }
