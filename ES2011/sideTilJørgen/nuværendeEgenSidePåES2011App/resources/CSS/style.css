@@ -33,6 +33,11 @@ a {
     text-decoration: none;
 }
 
+/* image borders */
+.bigProjectDiv img, .portrait {
+    border: 1px solid lightgray;
+}
+
 .biggerProjectsUnderText {
     color: rgb(47, 47, 47);
     margin-top: 0px;
@@ -70,6 +75,7 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 10px;
 }
 
 .topDivH a {
@@ -247,6 +253,22 @@ img {
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .topDivH p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .topDivH p {
+        font-size: 14px
+    }
+}
+
+@media only screen and (max-width: 730px) and (min-width: 590px) {
+    
+}
+
 @media only screen and (min-width: 1270px) {
     .biggerProjects li {
         font-size: 1.5rem;
@@ -293,11 +315,29 @@ img {
     }
 }
 
-/* media queries for desktop */
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 730px) {
     body {
         margin: 0px 20% 0px 20%;
     }
+}
+
+@media only screen and (min-width: 595px) and (max-width: 730px) {
+    body {
+        margin: 0px 5% 0px 5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .topDivH a {
+        padding: 0px;
+    }
+    .DMDiv button {
+        margin: 0px;
+    }
+}
+
+/* media queries for desktop */
+  @media only screen and (min-width: 600px) {
     /* bigger projects section */
     .portrait {
         padding: 0px;

@@ -10,23 +10,25 @@
 <body>
   <!-- header section-->
   <div class="topDivH">
-    <a href="" id="changeMe1"><p class="projectsHeader" id="change1">Projects</p></a>
     <a href="../../../index.html" id="changeMe2"><p class="aboutMeHeader">About me</p></a>
+    <a href="" id="changeMe1"><p class="projectsHeader" id="change1">Projects</p></a>
     <a href="../contactPage/index.html" id="changeMe3"><p class="contactHeader">Contact</p></a>
-  </div>
-  <!-- dark mode button -->
-  <div class="DMDiv">
-    <p>Dark mode:</p>
-        <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
-        <!-- 
-        <label class="switch">
-            
-                <input type="checkbox" onclick="updateDarkMode()">
-            
-            <span class="slider"></span>
-        </label>
-        -->
-        <button class="button button1" onclick="updateDarkMode()">Switch</button>
+      <!-- dark mode button -->
+    <div class="DMDiv">
+    <!-- removed as part of per suggestion
+         <p>Dark mode:</p> 
+     -->
+         <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
+         <!-- 
+         <label class="switch">
+             
+                 <input type="checkbox" onclick="updateDarkMode()">
+             
+             <span class="slider"></span>
+         </label>
+         -->
+         <button class="button button1" id="myButton1" onclick="updateDarkMode();updateButtonText()">☀️</button>
+   </div>
   </div>
   <!-- projects desciption section-->
   <div class="miniBody">
@@ -58,7 +60,7 @@
       </div>
       <!-- grundforløbs prøve section -->
       <div class="grundforløbsPrøve">
-        <a href="https://j-raunstrup.github.io/Webintegrator-grundforløbsprøve">
+        <a href="https://j-raunstrup.github.io/ES2011/Webintegrator-grundforløbsprøve">
           <h3>Events for companies site: Event centrum</h3>
           <p>(Earlier basic course exam for webintegrator)</p>
           <p>This can be viewed on desktop only</p>
@@ -89,14 +91,14 @@
       <!-- brians garage section -->
       <div class="briansGarage">
         <a href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/flexbox-business-site-starting">
-          <h3>(Parody) Company site: brians garage</h3>
+          <h3>Company site: brians garage (parody)</h3>
           <p>This can be viewed on desktop and mobile</p>
         </a>
       </div>
       <!-- brians gym section -->
       <div class="briansGym">
         <a href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/responsive-club-starting/starting">
-          <h3>(Parody) Club site: brians gym</h3>
+          <h3>Club site: brians gym (parody)</h3>
           <p>This can be viewed on desktop and mobile</p>
         </a>
       </div>

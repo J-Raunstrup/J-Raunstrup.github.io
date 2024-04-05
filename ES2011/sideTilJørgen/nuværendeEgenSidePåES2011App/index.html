@@ -34,23 +34,25 @@
      -->
      <!-- header section -->
     <div class="topDivH">
-        <a href="./resources/nestedPages/projectsPage/index.html" id="changeMe1"><p class="projectsHeader" id="change1">Projects</p></a>
         <a href="./index.html" id="changeMe2"><p class="aboutMeHeader" id="change2">About me</p></a>
+        <a href="./resources/nestedPages/projectsPage/index.html" id="changeMe1"><p class="projectsHeader" id="change1">Projects</p></a>
         <a href="./resources/nestedPages/contactPage/index.html" id="changeMe3"><p class="contactHeader">Contact</p></a>
-    </div>
-    <!-- dark mode button -->
-    <div class="DMDiv">
-        <p>Dark mode:</p>
-        <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
-        <!-- 
-        <label class="switch">
-            
-                <input type="checkbox" onclick="updateDarkMode()">
-            
-            <span class="slider"></span>
-        </label>
+            <!-- dark mode button -->
+        <div class="DMDiv">
+        <!-- removed as part of per suggestion
+            <p>Dark mode:</p> 
         -->
-        <button class="button button1" onclick="updateDarkMode()">Switch</button>
+            <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
+            <!-- 
+            <label class="switch">
+                
+                    <input type="checkbox" onclick="updateDarkMode()">
+                
+                <span class="slider"></span>
+            </label>
+            -->
+            <button class="button button1" id="myButton1" onclick="updateDarkMode();updateButtonText()">☀️</button>
+        </div>
     </div>
     <!-- about me section -->
     <div>
@@ -73,10 +75,10 @@
         <p>Press/click images below to go to corresponding sites</p>
             <!-- brians gym project seciton-->
             <div class="bigProjectDiv">
-                <h3>Brians gym website</h3>
+                <h3>Fotomatic</h3>
                 <div>
-                <a href="https://j-raunstrup.github.io/CodeCademy/full-stack-engineer/responsive-club-starting/starting/"><img src="./resources/images/brianSiteImage-kopi.png" alt="brianSiteImage"></a>
-                <p><span>Description:</span> This project was an attempt to make a club site. It's also a parody so some sarcasm has been used.</p>
+                <a href="https://j-raunstrup.github.io/CodeCademy/F1C1_start/"><img src="./resources/images/fotomaticPicture.png" alt="fotomaticSiteImage"></a>
+                <p><span>Description:</span> This project was an attempt to make a fictional camera website</p>
                 <p><span>Technologies used:</span> HTML, CSS, VS code text editor, github and github pages.</p>
                 <!-- roulette project seciton-->
             </div>
@@ -101,7 +103,6 @@
         <h3>Languages</h3>
         <p>English</p>
         <p>Danish</p>
-        <p>German (tourist level)</p>
     </div>
     <!-- programming languages section -->
     <div class="programmingLanguages">

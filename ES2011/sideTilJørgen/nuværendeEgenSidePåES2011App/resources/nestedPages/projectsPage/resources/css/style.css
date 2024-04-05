@@ -39,7 +39,8 @@ div {
     justify-content: space-evenly;
     color: black;
     flex-wrap: wrap;
-    margin: 0px;
+    margin-top: 10px;
+    align-items: center;
 }
 
 .projectsHeader {
@@ -271,6 +272,29 @@ a {
 
 
 /* media queries */
+
+@media only screen and (max-width: 655px) and (min-width: 580px) {
+    .topDivH p {
+        font-size: 1rem;
+    }
+
+    body p, .biggerProjects li {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .topDivH p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .topDivH p {
+        font-size: 14px
+    }
+}
+
 /* media queries for phones */
 @media only screen and (min-width: 600px) {
     .projectsList div {
@@ -293,11 +317,29 @@ a {
     */
 }
 
-/* media queries for desktop */
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 730px) {
     body {
         margin: 0px 20% 0px 20%;
     }
+}
+
+@media only screen and (min-width: 595px) and (max-width: 730px) {
+    body {
+        margin: 0px 5% 0px 5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .topDivH a {
+        padding: 0px;
+    }
+    .DMDiv button {
+        margin: 0px;
+    }
+}
+
+/* media queries for desktop */
+  @media only screen and (min-width: 600px) {
     /* bigger projects section */
     .biggerProjects li {
         font-size: 1.5rem;
@@ -337,15 +379,9 @@ a {
 
     /* media query for tablet. */
     @media only screen and (min-width: 600px) and (max-width: 780px) {
-        body {
+        .miniBody {
             margin-left: 0px;
             margin-right: 0px;
-        }
-        .topDivH {
-            margin: 0px 20% 0px 20%;
-        }
-        .DMDiv {
-            margin: 0px 20% 0px 20%;
         }
     }
 

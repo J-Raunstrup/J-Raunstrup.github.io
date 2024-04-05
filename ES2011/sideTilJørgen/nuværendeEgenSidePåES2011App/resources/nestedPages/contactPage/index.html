@@ -11,23 +11,25 @@
 <body>
       <!-- header section-->
     <div class="topDivH">
-        <a href="../projectsPage/index.html" id="changeMe1"><p class="projectsHeader">Projects</p></a>
         <a href="../../../index.html" id="changeMe2"><p class="aboutMeHeader">About me</p></a>
+        <a href="../projectsPage/index.html" id="changeMe1"><p class="projectsHeader">Projects</p></a>
         <a href="" id="changeMe3"><p class="contactHeader" id="change3">Contact</p></a>
-    </div>
-      <!-- dark mode button -->
-    <div class="DMDiv">
-        <p>Dark mode:</p>
-        <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
-        <!-- 
-        <label class="switch">
-            
-                <input type="checkbox" onclick="updateDarkMode()">
-            
-            <span class="slider"></span>
-        </label>
-        -->
-        <button class="button button1" onclick="updateDarkMode()">Switch</button>
+              <!-- dark mode button -->
+        <div class="DMDiv">
+        <!-- removed as part of per suggestion
+             <p>Dark mode:</p> 
+         -->
+             <!-- old solution with prettier checkbox though not svaing the checkbox across sites. -->
+             <!-- 
+             <label class="switch">
+                 
+                     <input type="checkbox" onclick="updateDarkMode()">
+                 
+                 <span class="slider"></span>
+             </label>
+             -->
+             <button class="button button1" id="myButton1" onclick="updateDarkMode();updateButtonText()">☀️</button>
+         </div>
     </div>
     <!-- contact section -->
     <h1>Contact</h1>
