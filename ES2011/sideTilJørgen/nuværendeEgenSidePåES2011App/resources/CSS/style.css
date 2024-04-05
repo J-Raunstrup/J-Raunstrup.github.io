@@ -65,14 +65,14 @@ a {
 }
 
 /* header section */
-.header {
+.topDivH {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.header a {
+.topDivH a {
     padding: 0px 20px 0px 20px;
 }
 
@@ -238,7 +238,7 @@ img {
 /* media queries */
 
 @media only screen and (max-width: 655px) and (min-width: 580px) {
-    .header p {
+    .topDivH p {
         font-size: 1rem;
     }
 
