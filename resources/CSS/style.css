@@ -33,6 +33,11 @@ a {
     text-decoration: none;
 }
 
+/* image borders */
+.bigProjectDiv img, .portrait {
+    border: 1px solid lightgray;
+}
+
 .biggerProjectsUnderText {
     color: rgb(47, 47, 47);
     margin-top: 0px;
