@@ -23,7 +23,8 @@ Here you can find everything I have programmed and built with code so far. It co
 
 <ul>
     <li>Microsoft Power Automate</li>
-    <li>Microsoft Power BI</li>    
+    <li>Microsoft Power BI</li>
+    <li>Blender (3D modelling)</li>    
     <li>Visual Studio Code</li>
     <li>Visual Studio</li>
     <li>Git</li>
