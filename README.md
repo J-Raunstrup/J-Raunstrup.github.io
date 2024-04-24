@@ -19,16 +19,18 @@ Here you can find everything I have programmed and built with code so far. It co
     <li>Markdown</li>
 </ul>
 
-### Other software used 🗄️
+### Other technologies used 🗄️
 
 <ul>
+    <li>Microsoft Power Automate</li>
+    <li>Microsoft Power BI</li>    
     <li>Visual Studio Code</li>
     <li>Visual Studio</li>
-    <li>Microsoft Excel</li>
-    <li>Microsoft PowerPoint</li>
     <li>Git</li>
     <li>Github</li>
     <li>Terminal</li>
+    <li>Microsoft Excel</li>
+    <li>Microsoft PowerPoint</li>
 </ul>
 
 ### When did i start programming? ⏳
