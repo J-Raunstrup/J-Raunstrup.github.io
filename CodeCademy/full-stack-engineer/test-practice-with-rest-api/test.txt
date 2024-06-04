@@ -1,0 +1,104 @@
+Question:
+
+Let’s imagine we are building a photo-collection site. 
+We want to make an API to keep track of users, venues, and photos of those venues. 
+This site has an index.html and a style.css. 
+Each user has a username and a password. 
+Each photo has a venue and an owner (i.e. the user who took the picture). 
+Each venue has a name and street address. 
+Can you design a REST system that would accommodate:
+
+storing users, photos, and venues
+accessing venues and accessing certain photos of a certain venue
+Start by writing out:
+
+what kinds of requests we would want to make
+what responses the server should return
+what the content-type of each response should be
+
+
+
+
+
+
+answer:
+
+we start out by defining the site. Lets call it FotoVenueFenatics
+
+We then define what data we would like to create. Lets say a user called bobby created an account
+
+POST http://FotoVenueFenatics.com/users
+Body:
+    {
+        "User": {
+            "Username" = "bobby",
+            "password" = "iLikeTrains"
+        }
+    }
+
+
+Then lets say bobby took a picture of a venue we didnt know existed. Then we would like to post that venue to our server first.
+
+POST http://FotoVenueFenatics.com/venues/
+Body:
+    {
+        "Venue": {
+            "Name" = "Madison Square Garden",
+            "Adress" = "4 Pennsylvania Plaza, New York, NY 10001, USA"
+        }
+    }
+
+
+Then lets say we wanted afterwards to update our server with bobbys photo.
+
+POST http://FotoVenueFenatics.com/venues/142/photos
+Body: {
+    "Photo": {
+        "Venue" = "Madison Square Garden",
+        "Owner" = "Bobby"
+    }
+}
+
+Lets say bobby took a picture of his house and claimed it was a venue. We looked through our data and saw bobbys house and could tell it wasnt a venue. Then we would like to delete it.
+
+DELETE http://FotoVenueFenatics.com/venues/190
+
+That would probably give us the following code returned.
+Status Code: 204
+
+Lets say bobby wanted to update his password to something more secure. He would change his password to. someoneSaidChangeYourPasswordButICantThinkOfAWord.
+
+PUT http://FotoVenueFenatics.com/users/145
+Body: 
+    {
+        "User": {
+            "password" = "someoneSaidChangeYourPasswordButICantThinkOfAWord"
+        }
+    }
+
+That would probably give us the following code in response from the server.
+Status Code: 200 (OK)
+
+Which would mean the change was succesful.
+
+
+
+we then deifne what kind of requests users would make.
+
+GET FotoVenueFenatics.com/users/
+Accept: text.html
+
+This would give us a list of all of our users.
+
+GET FotoVenueFenatics.com/users/145/photos
+Accept: text.html
+
+This would give us all the fotos for the user with an id of 145.
+
+
+GET FotoVenueFenatics.com/users/145/photos/4
+Accept: text.html
+
+This would give us the information fra user 145, photo with an index of 4. We know the data is stored in an index.html file so a html file. We request that data.
+
+
