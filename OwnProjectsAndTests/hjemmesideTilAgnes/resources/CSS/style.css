@@ -85,6 +85,45 @@ h2 {
     display: none;
 }
 
+#testId1, #testId4 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#testId4 a {
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+#testId4 p {
+    display: block;
+}
+
+#testId5 {
+    flex-direction: column;
+}
+
+#testId5 span {
+    flex-wrap: wrap;
+}
+
+#testId5 span a img {
+    width: 200px;
+    height: 200px;
+}
+
+#testId5 span a {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+video {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
 /*media queries for phone*/
 @media only screen and (max-width: 430px) {
     .divMedTekstBokse div {
