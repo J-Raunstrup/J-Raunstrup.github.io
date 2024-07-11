@@ -309,6 +309,10 @@ body {
     justify-content: center;
     background-color: black;
   }
+
+  .mySlides {
+    background-color: darkturquoise;
+  }
 /* slideshow stop */
 
 
@@ -366,4 +370,56 @@ body {
         width: 90px;
         height: 90px;
     }
+
+    #kontaktSpanBox span a {
+      padding-left: 0px;
+    }
+    
+    iframe {
+      width: 100%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {
+  #kontaktSpanBox span {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #kontaktSpanBox span span {
+    flex-direction: row;
+  }
+
+  #kontaktSpanBox {
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width: 415px) {
+  #fotosBoksIndhold span a img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #fotosBoksIndhold span a img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  #fotosBoksIndhold span a img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  iframe {
+    height: auto;
+  }
 }
