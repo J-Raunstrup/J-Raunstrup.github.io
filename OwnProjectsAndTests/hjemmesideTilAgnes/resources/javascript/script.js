@@ -40,6 +40,8 @@ const testFunction4 = () => {
     }
 }
 
+/* add the following back again after testing. */
+
 const testFunction5 = () => {
     let test2 = document.getElementById("fotosBoksIndhold");
     if (test2.style.display === "flex") {
