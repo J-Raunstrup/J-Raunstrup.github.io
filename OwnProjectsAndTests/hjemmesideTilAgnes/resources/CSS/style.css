@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
 
+
+/* general css declarations */
 body {
     display: flex;
     justify-content: center;
@@ -8,6 +10,7 @@ body {
     font-family: "Playwrite AU QLD", cursive;
 }
 
+/* header declerations */
 h1 {
     font-size: 2rem;
 }
@@ -16,6 +19,7 @@ h2 {
     font-size: 1.5rem;
 }
 
+/* generel div button information containers declerations */
 .divMedTekstBokse div {
     background-color: rgb(0, 255, 255);
     border-radius: 1rem;
@@ -30,7 +34,7 @@ h2 {
     padding-left: 40px;
 }
 
-
+/* Define buttons behaviour on hover */
 .divMedTekstBokse div:hover {
     background-color: rgb(179, 255, 255);
     cursor: pointer;
@@ -45,6 +49,7 @@ h2 {
 }
 */
 
+/* Make the contents of the buttons display properly */
 .divMedTekstBokse div p, .divMedTekstBokse div i {
     display: flex;
 }
@@ -58,6 +63,8 @@ h2 {
 .divMedTekstBokse p {
     margin: 0px;
 }
+
+/* Assign font awesome icons for each button to be displayed a little to the left of each button title .*/
 
 .divMedTekstBokse i {
     display: flex;
@@ -81,37 +88,37 @@ h2 {
     justify-content: center;
 }
 
-#testId1, #testId2, #testId3, #testId4, #testId5 {
+#kontaktSpanBox, #showreelBoxIndhold, #nytFraMigBoxIndhold, #portfolieBoksIndhold, #fotosBoksIndhold {
     display: none;
 }
 
-#testId1, #testId4 {
+#kontaktSpanBox, #portfolieBoksIndhold {
     flex-direction: column;
     align-items: flex-start;
 }
 
-#testId4 a {
+#portfolieBoksIndhold a {
     padding: 0rem 0rem 0rem 0rem;
 }
 
-#testId4 p {
+#portfolieBoksIndhold p {
     display: block;
 }
 
-#testId5 {
+#fotosBoksIndhold {
     flex-direction: column;
 }
 
-#testId5 span {
+#fotosBoksIndhold span {
     flex-wrap: wrap;
 }
 
-#testId5 span a img {
+#fotosBoksIndhold span a img {
     width: 200px;
     height: 200px;
 }
 
-#testId5 span a {
+#fotosBoksIndhold span a {
     position: relative;
 }
 
@@ -120,7 +127,12 @@ a {
     padding-left: 10px;
 }
 
+/* video css queries. video tag for local file. iframe for youtube link*/
 video {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+iframe {
     padding: 1rem 0rem 1rem 0rem;
 }
 
@@ -143,5 +155,9 @@ video {
     }
     .velkomstBox {
         width: 92%;
+    }
+
+    #kontaktSpanBox span p {
+        font-size: 1.1rem;
     }
 }

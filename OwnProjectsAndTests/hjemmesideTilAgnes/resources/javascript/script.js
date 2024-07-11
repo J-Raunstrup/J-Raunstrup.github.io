@@ -5,7 +5,7 @@ let elementNumber = -1;
 
 
 const testFunction1 = () => {
-    let test2 = document.getElementById("testId1");
+    let test2 = document.getElementById("kontaktSpanBox");
     if (test2.style.display === "flex") {
         test2.style.display = "none"
     } else {
@@ -14,7 +14,7 @@ const testFunction1 = () => {
 }
 
 const testFunction2 = () => {
-    let test2 = document.getElementById("testId2");
+    let test2 = document.getElementById("showreelBoxIndhold");
     if (test2.style.display === "flex") {
         test2.style.display = "none"
     } else {
@@ -23,7 +23,7 @@ const testFunction2 = () => {
 }
 
 const testFunction3 = () => {
-    let test2 = document.getElementById("testId3");
+    let test2 = document.getElementById("nytFraMigBoxIndhold");
     if (test2.style.display === "flex") {
         test2.style.display = "none"
     } else {
@@ -32,7 +32,7 @@ const testFunction3 = () => {
 }
 
 const testFunction4 = () => {
-    let test2 = document.getElementById("testId4");
+    let test2 = document.getElementById("portfolieBoksIndhold");
     if (test2.style.display === "flex") {
         test2.style.display = "none"
     } else {
@@ -41,7 +41,7 @@ const testFunction4 = () => {
 }
 
 const testFunction5 = () => {
-    let test2 = document.getElementById("testId5");
+    let test2 = document.getElementById("fotosBoksIndhold");
     if (test2.style.display === "flex") {
         test2.style.display = "none"
     } else {
