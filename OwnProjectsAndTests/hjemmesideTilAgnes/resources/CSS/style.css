@@ -335,12 +335,31 @@ body {
         align-items: center;
         width: 92%;
     }
+
+    .divMedTekstBokse span {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
     .velkomstBox {
         width: 92%;
     }
+    
+    .fa-solid.fa-envelope {
+      padding-right: 8px;
+    }
 
-    #kontaktSpanBox span p {
+    .fa-solid.fa-phone {
+      padding-right: 5px;
+    }
+
+    #kontaktSpanBox span p, #nytFraMigBoxIndhold p, #portfolieBoksIndhold p {
         font-size: 1.1rem;
+    }
+
+    #nytFraMigBoxIndhold, #portfolieBoksIndhold, #kontaktSpanBox {
+      margin-top: 10px;
     }
 
     #fotosBoksIndhold span a img {
