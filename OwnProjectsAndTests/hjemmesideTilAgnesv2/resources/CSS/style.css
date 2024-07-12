@@ -337,6 +337,10 @@ body {
   .mySlides {
     background-color: darkturquoise;
   }
+
+  .column {
+    cursor: pointer;
+  }
 /* slideshow stop */
 
 /* media query for blue boxes on phones and some tablets */
