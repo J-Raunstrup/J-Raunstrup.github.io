@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- head section.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agnes Marie | Officielt site - Det officielle site for Agnes Marie Riis Christens</title>
+    <link rel="stylesheet" href="resources/CSS/style.css">
+    <!-- javascripts -->
+    <script src="https://kit.fontawesome.com/e5e3a9297d.js" crossorigin="anonymous"></script>
+    <script src="resources/javascript/script.js"></script>
+</head>
+<!-- body section -->
+<body>
+    <!-- welcome information box-->
+    <div class="velkomstBox">
+        <h1>Agnes Marie Riis Christens</h1>
+        <h2>Skuespiller</h2>
+    </div>
+    <!-- Kontakt box -->
+    <div class="divMedTekstBokse">
+        <div class="divMedTekstBoks" onclick="testFunction1()">
+            <span>
+                <span class="buttonTextContainer">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <p>Kontakt</p>
+                </span>
+                <span class="dropDownContainer">
+                    <i class="fa-regular fa-square-caret-down" id="dropDown1"></i>
+                    <i class="fa-regular fa-square-caret-up" id="dropDownUp1"></i>
+                </span>
+            </span>
+            <span id="kontaktSpanBox">
+                <span>
+                    <!--
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Mail: <a href="mailto:agneschristens@yahoo.dk">agneschristens@yahoo.dk</a></p>
+                </span>
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Telefon: <a href="tel:+4524891780">+45 24 89 17 80</a></p>
+                </span>
+                -->
+                <span>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Mail:</p>
+                </span>
+                    <p><a href="mailto:agneschristens@yahoo.dk">agneschristens@yahoo.dk</a></p>
+            </span>
+            <span>
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Telefon: </p>
+                </span>
+                <p><a href="tel:+4524891780" id="phoneText">+45 24 89 17 80</a></p>
+            </span>
+            </span>
+        </div>
+
+        <!-- Showreel box -->
+        <div class="divMedTekstBoks" onclick="testFunction2()">
+            <span>
+                <i class="fa-solid fa-film"></i>
+                <p>Showreel</p>
+            </span>
+            <span id="showreelBoxIndhold">
+                <!-- 
+                <video width="100%" controls>
+                    <source src="https://www.youtube.com/watch?v=JPqxgGPUwmw" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  -->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/nKIu9yen5nc?si=f4sCCBugxsOifack" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    
+                  </iframe>
+                <p></p>
+            </span>
+        </div>
+
+        <!-- Nyt fra mig box -->
+        <div class="divMedTekstBoks" onclick="testFunction3()">
+            <span>
+                <i class="fa-solid fa-earth-europe"></i>
+                <p>Nyt fra mig</p>
+            </span>
+            <span id="nytFraMigBoxIndhold">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            </span>
+        </div>
+
+        <!-- portfolie box -->
+        <div class="divMedTekstBoks" onclick="testFunction4()">
+            <span>
+                <i class="fa-regular fa-id-card"></i>
+                <p>Portfolie</p>
+            </span>
+            <span id="portfolieBoksIndhold">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit<a href="resources/PDF files/Min portfolie.pdf"> PDF</a></p>
+            </span>
+        </div>
+
+        <!-- fotos box -->
+         <!--
+        <div class="divMedTekstBoks" onclick="testFunction5()">
+            <span>
+                <i class="fa-solid fa-camera"></i>
+                <p>Fotos</p>
+            </span>
+            <span id="fotosBoksIndhold">
+                <p>test</p>
+                <span>
+                    <a href=""><img src="./resources/images/sødHundBillede.jpg" alt="fejl med billede"></a>
+                    <a href=""><img src="./resources/images/sødHundBillede.jpg" alt="fejl med billede"></a>
+                    <a href=""><img src="./resources/images/sødHundBillede.jpg" alt="fejl med billede"></a>
+                    <a href=""><img src="./resources/images/sødHundBillede.jpg" alt="fejl med billede"></a>
+                    <a href=""><img src="./resources/images/sødHundBillede.jpg" alt="fejl med billede"></a>
+                    <a href=""><img src="./resources/images/sødHundBillede.jpg" alt="fejl med billede"></a>
+                    <a href=""><img src="./resources/images/sødHundBillede.jpg" alt="fejl med billede"></a>
+                    <a href=""><img src="./resources/images/sødHundBillede.jpg" alt="fejl med billede"></a>
+                    <a href=""><img src="./resources/images/sødHundBillede.jpg" alt="fejl med billede"></a>
+                </span>
+            </span>
+        </div>
+        -->
+        <div class="divMedTekstBoks" onclick="testFunction5()">
+            <span>
+                <i class="fa-solid fa-camera"></i>
+                <p>Fotos</p>
+            </span>
+            <span id="fotosBoksIndhold">
+                <p>Billeder af mig</p>
+                <span class="row">
+                    <a class="column">
+                        <img src="resources/images/img_lights.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </a>
+                    <a class="column">
+                        <img src="resources/images/img_mountains.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    </a>
+                    <a class="column">
+                        <img src="resources/images/img_nature.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    </a>
+                    <a class="column">
+                        <img src="resources/images/img_snow.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </a>
+                    <a class="column">
+                        <img src="resources/images/img_lights.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </a>
+                    <a class="column">
+                        <img src="resources/images/img_mountains.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    </a>
+                    <a class="column">
+                        <img src="resources/images/img_nature.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    </a>
+                    <a class="column">
+                        <img src="resources/images/img_snow.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </a>
+                    <a class="column">
+                        <img src="resources/images/img_lights.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </a>
+                </span>
+            </span>
+        </div>
+    </div>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+    
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="resources/images/img_lights.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="resources/images/img_mountains.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="resources/images/img_nature.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="resources/images/img_snow.jpg" style="width:100%">
+            </div>
+        
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        
+            <!-- Thumbnail image controls -->
+            <div class="thumbnailImageDiv">
+                <div class="column">
+                    <img class="demo" src="resources/images/img_lights.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="resources/images/img_mountains.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="resources/images/img_nature.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="resources/images/img_snow.jpg" style="width:100%" onclick="currentSlide(4)" alt="Lights">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script for slideshow -->
+    <script src="resources/javascript/slideshow.js"></script>
+</body>
+</html>
