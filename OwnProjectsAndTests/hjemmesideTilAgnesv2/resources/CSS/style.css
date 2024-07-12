@@ -40,6 +40,10 @@ h2 {
     cursor: pointer;
 }
 
+#contactSpanBox {
+  padding: 10px 0px;
+}
+
 
 
 /* button text query */
@@ -412,6 +416,14 @@ body {
     
     iframe {
       width: 100%;
+    }
+
+    .divMedTekstBoks span span {
+      font-size: 22px;
+    }
+
+    .divMedTekstBoks span span i {
+      padding-right: 8px;
     }
 }
 
