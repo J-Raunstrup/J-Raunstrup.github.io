@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* general css declarations */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins";
+}
+
+/* header declerations */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+#kontaktSpanBox p, #showreelBoxIndhold p, #nytFraMigBoxIndhold p, #portfolieBoksIndhold p, #fotosBoksIndhold p {
+    font-size: 1.5rem;
+}
+
+/* generel div button information containers declerations */
+.divMedTekstBokse div {
+    background-color: rgb(0, 255, 255);
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem 10rem;
+    font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    width: 800px;
+    height: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+/* Define buttons behaviour on hover */
+.divMedTekstBokse div:hover {
+    background-color: rgb(179, 255, 255);
+    cursor: pointer;
+}
+
+
+
+/* button text query */
+.buttonTextContainer {
+  position: absolute;
+}
+
+
+
+/* dropdownQueries*/
+.dropDownContainer {
+  margin-inline-start: auto;
+}
+
+.fa-regular.fa-square-caret-up {
+  display: none;
+}
+
+.fa-regular.fa-square-caret-down {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 0px;
+}
+
+/*
+.divMedTekstBokse div:hover {
+    background-color: rgb(179, 255, 255);
+    cursor: pointer;
+    padding-bottom: 800px;
+}
+*/
+
+/* Make the contents of the buttons display properly */
+.divMedTekstBokse div p, .divMedTekstBokse div i {
+    display: flex;
+}
+
+.divMedTekstBokse span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMedTekstBokse p {
+    margin: 0px;
+}
+
+/* Assign font awesome icons for each button to be displayed a little to the left of each button title .*/
+
+.divMedTekstBokse i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.divMedTekstBoks {
+    flex-direction: column;
+
+    /*
+    display: none;
+    */
+}
+
+.divMedTekstBoks div {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+#kontaktSpanBox, #showreelBoxIndhold, #nytFraMigBoxIndhold, #portfolieBoksIndhold, #fotosBoksIndhold {
+    display: flex;
+}
+
+.velkomstBox h1, .velkomstBox h2 {
+  font-weight: 400;
+}
+
+/* remove 3 lines below after testing */
+/*
+#fotosBoksIndhold {
+    display: flex;
+}
+    */
+
+#kontaktSpanBox, #portfolieBoksIndhold {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#portfolieBoksIndhold a {
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+#portfolieBoksIndhold p {
+    display: block;
+}
+
+#fotosBoksIndhold {
+    flex-direction: column;
+}
+
+#fotosBoksIndhold span {
+    flex-wrap: wrap;
+}
+
+#fotosBoksIndhold span a img {
+    width: 200px;
+    height: 200px;
+}
+
+#fotosBoksIndhold span a {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+/* video css queries. video tag for local file. iframe for youtube link*/
+video {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+iframe {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+
+
+/* slideshow start */
+body {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .column img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+.row > .column {
+    padding: 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Create four equal columns that floats next to eachother */
+  .column {
+    float: left;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+  /* extra stuff that makes the images in slideshow mode be alligned in center and have a little more darkness 
+  before hover */
+  .thumbnailImageDiv {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+
+  .mySlides {
+    background-color: darkturquoise;
+  }
+/* slideshow stop */
+
+/* media query for blue boxes on phones and some tablets */
+@media only screen and (min-width: 431px) and (max-width: 830px) {
+  .divMedTekstBokse {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .divMedTekstBokse div {
+    /*
+    width: 300px;
+    */
+    width: 92%;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem;
+    height: auto;
+  }
+}
+
+
+
+/*media queries for phone*/
+@media only screen and (max-width: 430px) {
+    .divMedTekstBokse div {
+        /*
+        width: 300px;
+        */
+        width: 92%;
+        margin: 1rem 0rem 1rem 0rem;
+        padding: 1rem;
+        height: auto;
+    }
+    .divMedTekstBokse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 92%;
+    }
+
+    .divMedTekstBokse span {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .velkomstBox {
+        width: 92%;
+    }
+    
+    .fa-solid.fa-envelope {
+      padding-right: 8px;
+    }
+
+    .fa-solid.fa-phone {
+      padding-right: 5px;
+    }
+
+    #kontaktSpanBox span p, #nytFraMigBoxIndhold p, #portfolieBoksIndhold p, #fotosBoksIndhold p {
+        font-size: 1.1rem;
+    }
+
+    #nytFraMigBoxIndhold, #portfolieBoksIndhold, #kontaktSpanBox {
+      margin-top: 10px;
+    }
+
+    #fotosBoksIndhold span a img {
+        width: 90px;
+        height: 90px;
+    }
+
+    #kontaktSpanBox span a {
+      padding-left: 0px;
+    }
+    
+    iframe {
+      width: 100%;
+    }
+}
+
+
+
+/* kontakt box media queries */
+@media only screen and (min-width: 360px) and (max-width: 610px) {
+  #kontaktSpanBox span {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #kontaktSpanBox span span {
+    flex-direction: row;
+  }
+
+  #kontaktSpanBox {
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 660px) {
+  #kontaktSpanBox span p, #nytFraMigBoxIndhold p, #portfolieBoksIndhold p {
+    font-size: 1.4rem;
+}
+}
+
+
+
+/* foto boks media queries */
+@media only screen and (max-width: 800px) {
+  #fotosBoksIndhold span a img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+
+@media only screen and (max-width: 710px) {
+  #fotosBoksIndhold span a img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  #fotosBoksIndhold span a img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 495px) {
+  #fotosBoksIndhold span a img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #fotosBoksIndhold span a img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #fotosBoksIndhold span a img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  #fotosBoksIndhold span a img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+
+
+/* frame (video box) media query */
+@media only screen and (max-width: 375px) {
+  iframe {
+    height: auto;
+  }
+}
