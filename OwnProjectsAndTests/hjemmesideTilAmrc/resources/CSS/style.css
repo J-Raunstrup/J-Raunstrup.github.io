@@ -479,6 +479,13 @@ body {
 */
 
 /* fotos fix */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+  .column img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
 @media only screen and (max-width: 680px) and (min-width: 675px) {
   .column img {
     width: 110px;
@@ -497,6 +504,12 @@ body {
   .column img {
     width: 80px;
     height: 80px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #sendEnMailButton {
+    padding: 20px 20px 20px 20px;
   }
 }
 
