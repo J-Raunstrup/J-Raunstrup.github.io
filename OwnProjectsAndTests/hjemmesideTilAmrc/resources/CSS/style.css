@@ -202,13 +202,13 @@ body {
   }
 
   .column img {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
   }
 
 .row > .column {
-    padding: 8px;
+    padding: 30px;
   }
   
   .row:after {
@@ -318,6 +318,8 @@ body {
   
   img.demo {
     opacity: 0.6;
+    /* en linje under dette ny for at gøre billeder på slideshow mindre */
+    height: auto;
   }
   
   .active,
