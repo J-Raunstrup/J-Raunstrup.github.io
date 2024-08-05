@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     background-color: rgb(244, 250, 255);
+    font-family: "EB Garamond", serif;
 }
 
 .divMedTekstBokse {
@@ -454,7 +457,7 @@ body {
 
 @media only screen and (max-width: 385px) {
   .agnesMariePDiv {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .divMedTekstBoks li {
