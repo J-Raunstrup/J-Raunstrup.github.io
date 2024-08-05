@@ -133,6 +133,8 @@ img {
 video {
     width: 88%;
     height: auto;
+    background-color: black;
+    border: solid 1px gray;
 }
 
 #hvemErJegDiv {
