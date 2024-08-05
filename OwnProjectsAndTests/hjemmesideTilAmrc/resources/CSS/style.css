@@ -418,7 +418,11 @@ body {
   }
 }
 
-
+@media only screen and (max-width: 675px) and (min-width: 450px) {
+  .divMedTekstBokse {
+    margin: 0% 5%;
+  }
+}
 
 @media only screen and (max-width: 735px) {
   .agnesMariePDiv {
@@ -445,15 +449,54 @@ body {
   .imageAndNameContainer {
     padding: 8px 8px 0px 8px
   }
+  
   #favoritProjekter ul {
     padding: 16px 30px 16px 40px;
   }
+  
   .divMedTekstBoks li {
     font-size: 1.3rem;
     padding-right: 20px;
   }
+  
   #hvemErJegDiv {
     padding: 0px 16px 0px 16px
+  }
+
+  .nameAndPictureDiv p {
+    padding-left: 8px;
+  }
+}
+
+/* to fix fotos */
+/*
+@media only screen and (max-width: 600px) and (min-width: 450px) {
+  .column img {
+    width: 80px;
+    height: 80px;
+  }
+}
+*/
+
+/* fotos fix */
+@media only screen and (max-width: 680px) and (min-width: 675px) {
+  .column img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media only screen and (max-width: 675px) and (min-width: 530px) {
+  .column img {
+    width: 135px;
+    height: 135px;
+  }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 385px) {
+  .column img {
+    width: 80px;
+    height: 80px;
   }
 }
 
