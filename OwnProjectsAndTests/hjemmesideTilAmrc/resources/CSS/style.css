@@ -447,6 +447,9 @@ body {
     font-size: 1.3rem;
     padding-right: 20px;
   }
+  #hvemErJegDiv {
+    padding: 0px 16px 0px 16px
+  }
 }
 
 @media only screen and (max-width: 385px) {
@@ -465,10 +468,6 @@ body {
 
   .projektDiv {
     padding: 16px 16px 16px 32px;
-  }
-
-  #hvemErJegDiv {
-    padding: 0px 16px 0px 16px
   }
 
   .blueHeader, #blackHeader {
