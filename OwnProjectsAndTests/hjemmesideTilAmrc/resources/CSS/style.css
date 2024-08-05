@@ -109,12 +109,14 @@ img {
     align-items: center;
 }
 
+#showreelH3 {
+  margin-bottom: 1rem;
+}
 
 video {
     width: 88%;
     height: auto;
 }
-
 
 #hvemErJegDiv {
   padding: 0rem 5rem 0rem 5rem;
