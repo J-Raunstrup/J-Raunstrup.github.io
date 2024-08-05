@@ -16,8 +16,12 @@ body {
     background-color: rgb(244, 250, 255);;
 }
 
-#title h1, #title h2 {
-    margin: 12px 0px 12px 0px;
+#title h1 {
+  margin: 12px 0px 12px 0px
+}
+
+#title h2 {
+  margin: 0px 0px 12px 0px
 }
 
 img {
@@ -63,14 +67,18 @@ img {
     background-color: rgb(208, 221, 232);
     margin: 2rem 0rem;
     padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .divMedTekstBoks h3 {
     background-color: rgb(35, 35, 107);
     color: white;
-    margin: 2rem 10rem 1rem 10rem;
+    margin: 2rem 0rem 0rem 0rem;
     padding: 1rem 0rem;
+    width: 60%;
 }
 
 
@@ -109,7 +117,7 @@ video {
 
 
 #hvemErJegDiv {
-  padding: 0rem 5rem 32px 5rem;
+  padding: 0rem 5rem 0rem 5rem;
 }
 
 .divMedTekstBoks p{
