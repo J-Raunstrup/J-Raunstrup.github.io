@@ -12,7 +12,7 @@ body {
 #title {
     border: solid 4px black;
     padding: 0px 10px 0px 10px;
-    margin: 0.5rem 0rem;
+    margin: 28px 0rem 0.5rem 0rem;
     background-color: rgb(244, 250, 255);;
 }
 
@@ -29,12 +29,22 @@ img {
     height: auto;
 }
 
+.parentTest {
+  width: 100%;
+}
+
 #portrait1 {
-    width: 70%;
+    /*width: 70%;*/
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .imageAndNameContainer {
   padding: 25px 25px 0px 25px;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
 }
 
 .nameAndPictureDiv p {
@@ -50,6 +60,8 @@ img {
     font-size: 4rem;
     padding: 0px 20px 0px 20px;
     margin-right: 5px;
+    /*1 new line below*/
+    justify-content: center;
 }
 
 .nameAndPictureDiv, #kontaktDiv {
@@ -57,11 +69,13 @@ img {
     margin: 2rem 0rem;
 }
 
+/*
 .nameAndPictureDiv div {
     display: flex;
     justify-content: center;
     overflow: auto;
 }
+    */
 
 .divMedTekstBoks {
     background-color: rgb(208, 221, 232);
@@ -363,3 +377,122 @@ body {
     cursor: pointer;
   }
 /* slideshow stop */
+
+
+
+
+
+
+
+
+/* media queries */
+
+/* tablets */
+@media only screen and (max-width: 1280px) {
+  .agnesMariePDiv {
+    font-size: 2rem;
+  }
+
+  #favoritProjekter ul {
+    padding: 16px 40px 16px 40px;
+  }
+
+  /* fotos div */
+  .row > .column {
+    padding: 10px;
+  }
+
+  .column img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* hvem er jeg div */
+  #portrait2 {
+    width: 50%;
+  }
+}
+
+
+
+@media only screen and (max-width: 735px) {
+  .agnesMariePDiv {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .agnesMariePDiv {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .divMedTekstBokse {
+    margin: 0% 5%;
+  }
+  
+  .agnesMariePDiv {
+    font-size: 1.8rem;
+    padding: 0px 8px 0px 8px;
+  }
+
+  .imageAndNameContainer {
+    padding: 8px 8px 0px 8px
+  }
+  #favoritProjekter ul {
+    padding: 16px 30px 16px 40px;
+  }
+  .divMedTekstBoks li {
+    font-size: 1.3rem;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .agnesMariePDiv {
+    font-size: 1.5rem;
+  }
+
+  .divMedTekstBoks li {
+    font-size: 1rem;
+    padding-right: 5px;
+  }
+
+  #favoritProjekter ul {
+    padding: 16px 0px 16px 0px;
+  }
+
+  .projektDiv {
+    padding: 16px 16px 16px 32px;
+  }
+
+  #hvemErJegDiv {
+    padding: 0px 16px 0px 16px
+  }
+
+  .blueHeader, #blackHeader {
+    font-size: 1.5rem;
+  }
+
+  .divMedTekstBoks a {
+    font-size: 1rem;
+  }
+
+  .divMedTekstBoks h3 {
+    width: 80%;
+  }
+
+  #kontaktDiv div div p {
+    font-size: 1.2rem;
+  }
+
+  #sendEnMailButton {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .column img {
+    width: 70px;
+    height: 70px;
+  }
+}
