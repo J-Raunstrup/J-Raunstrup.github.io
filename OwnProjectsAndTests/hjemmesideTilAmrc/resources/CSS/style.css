@@ -479,7 +479,29 @@ body {
 */
 
 /* fotos fix */
-@media only screen and (min-width: 800px) and (max-width: 1280px) {
+
+@media only screen and (max-width: 1300px){
+  .column img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 1265px) {
+  .column img {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1199px) {
+  .column img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
   .column img {
     width: 140px;
     height: 140px;
