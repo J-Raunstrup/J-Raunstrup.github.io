@@ -6,7 +6,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 0% 15%;
+    margin: 0% 20%;
 }
 
 #title {
@@ -26,7 +26,16 @@ img {
 }
 
 #portrait1 {
-    width: 400px;
+    width: 70%;
+}
+
+.imageAndNameContainer {
+  padding: 25px 25px 0px 25px;
+}
+
+.nameAndPictureDiv p {
+  float: left;
+  padding-left: 25px;
 }
 
 .agnesMariePDiv {
@@ -35,9 +44,11 @@ img {
     background-color: black;
     color: white;
     font-size: 4rem;
+    padding: 0px 20px 0px 20px;
+    margin-right: 5px;
 }
 
-.nameAndPictureDiv, .kontaktDiv {
+.nameAndPictureDiv, #kontaktDiv {
     background-color: aqua;
     margin: 0.5rem 0rem;
 }
@@ -45,11 +56,12 @@ img {
 .nameAndPictureDiv div {
     display: flex;
     justify-content: center;
+    overflow: auto;
 }
 
 .divMedTekstBoks {
     background-color: rgb(208, 221, 232);
-    margin: 0.5rem 0rem;
+    margin: 2rem 0rem;
     padding-bottom: 2rem;
 }
 
@@ -57,7 +69,7 @@ img {
 .divMedTekstBoks h3 {
     background-color: rgb(35, 35, 107);
     color: white;
-    margin: 1rem 10rem;
+    margin: 2rem 10rem 1rem 10rem;
     padding: 1rem 0rem;
 }
 
@@ -96,14 +108,56 @@ video {
 }
 
 
+#hvemErJegDiv {
+  padding: 0rem 5rem 32px 5rem;
+}
+
+.divMedTekstBoks p{
+  font-size: 1.5rem;
+}
+
+.divMedTekstBoks li {
+  font-size: 1.5rem;
+  padding-right: 20px;
+}
+
+.divMedTekstBoks a {
+  font-size: 1.3rem;
+}
+
+#favoritProjekter {
+  padding-bottom: 50px;
+}
+
+#downloadCvButton {
+  margin-bottom: 10px;
+}
+
+.divMedTekstBoks ul {
+  text-align: start;
+}
+
+#portrait2 {
+  float: right;
+  width: 25%;
+  height: auto;
+}
+
+#sendEnMailButton {
+  margin-right: 20px;
+  padding: 20px 60px 20px 60px;
+}
 
 
 
+.blueHeader, #blackHeader {
+  font-size: 2rem;
+  font-weight: 100;
+}
 
-
-
-
-
+#blackHeader {
+  background-color: black;
+}
 
 
 

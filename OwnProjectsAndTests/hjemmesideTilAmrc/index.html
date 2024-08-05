@@ -16,25 +16,24 @@
             <h2>Agnes Marie Riis Christens</h2>
         </div>
         <div class="nameAndPictureDiv">
-            <div>
+            <div class="imageAndNameContainer">
                 <div class="agnesMariePDiv">
-                    <p>Agnes</p>
-                    <p>Marie</p>
+                    <h3>Agnes</h3>
+                    <h3>Marie</h3>
                 </div>
                 <img src="resources/images/portrait.jpg" alt="Billede af mig" id="portrait1">
             </div>
             <p>Agneschristens@yahoo.dk</p>
         </div>
         <div class="divMedTekstBoks">
-            <h3>Showreel</h3>
+            <h3 class="blueHeader">Showreel</h3>
             <video width="320" height="240" controls>
-                <source src="movie.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
+                <source src="resources/videos/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
-        <div class="divMedTekstBoks">
-            <h3>Favorit projekter</h3>
+        <div class="divMedTekstBoks" id="favoritProjekter">
+            <h3 class="blueHeader">Favorit projekter</h3>
             <ul>
                 <div class="projektDiv">
                     <li>Et drömspil - Nyfortolket af Svante Grogarn</li>
@@ -58,10 +57,10 @@
                 </div>
                 <!-- ingen melodi gran pri?? ingen næstved arena???? skulle mpske nævne noget flere kendte.-->
             </ul>
-            <a href="" class="button">Download fulde CV klick her</a>
+            <a href="resources/PDF files/pdf-test.pdf" class="button">Download fulde CV klick her</a>
         </div>
             <div class="divMedTekstBoks" onclick="testFunction5()">
-                <h3>Fotos</h3>
+                <h3 class="blueHeader">Fotos</h3>
                 <span id="fotosBoksIndhold">
                     <p>Billeder af mig</p>
                     <span class="row">
@@ -97,24 +96,26 @@
             </div>
 
         
-        <div class="divMedTekstBoks">
-            <h3>Hvem er jeg?</h3>
+        <div class="divMedTekstBoks" id="hvemErJegDiv">
+            <h3 class="blueHeader">Hvem er jeg?</h3>
             <!-- alternativt skriv om mig. eller noget som mit univers eller noget tilsvarende.-->
-            <p>Jeg er en ung skuespiller udannet fra talentskolen i Næstved.</p>
-            <p>Efter jeg afsluttede min uddannelse, tog jeg mod Sverige for at studere.</p>
-            <p>Jeg gik på Nordiska Högskola Teater.</p>
-            <p>Det var spændende at spille på et andet sprog end sit modersmål og helt klart noget jeg vil fortsætte med.</p>
-            <img src="resources/images/Aspect_ratio_-_16x9.svg.png" alt="">
+            <p>Jeg er en ung skuespiller udannet fra talentskolen i Næstved. 
+                Efter jeg afsluttede min uddannelse, tog jeg mod Sverige for at studere. 
+                Jeg gik på Nordiska Högskola Teater. 
+                Det var spændende at spille på et andet sprog end sit modersmål og helt klart noget jeg vil fortsætte med.</p>
+            <img src="resources/images/Aspect_ratio_-_16x9.svg.png" alt="" id="portrait2">
         </div>
-        <div class="divMedTekstBoks">
-            <h3>Kontakt</h3>
+        <div class="divMedTekstBoks" id="kontaktDiv">
+            <h3 id="blackHeader">Kontakt</h3>
             <div>
-                <p>Telefon: +45 24 89 17 80</p>
-                <p>Mail: Agneschristens@yahoo.dk</p>
-            </div>
-            <div class="buttonPictureContactDiv">
-                <a href="mailto:agneschristens@yahoo.dk" class="button">Send en mail.</a>
-                <img src="resources/images/portrait.jpg" alt="Billede af mig">
+                <div>
+                    <p>Telefon: +45 24 89 17 80</p>
+                    <p>Mail: Agneschristens@yahoo.dk</p>
+                </div>
+                <div class="buttonPictureContactDiv">
+                    <a href="mailto:agneschristens@yahoo.dk" class="button" id="sendEnMailButton">Send en mail.</a>
+                    <img src="resources/images/portrait.jpg" alt="Billede af mig" id="kontaktPortrait">
+                </div>
             </div>
         </div>
     </div>
