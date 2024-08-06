@@ -23,9 +23,11 @@ body {
 
 /* menu start */
 
+/*
 body {
   font-family: 'Lato', sans-serif;
 }
+*/
 
 .menuButton {
   position: absolute;
@@ -602,7 +604,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 680px) and (min-width: 675px) {
+@media only screen and (max-width: 800px) and (min-width: 675px) {
   .column img {
     width: 110px;
     height: 110px;
