@@ -23,51 +23,18 @@ body {
   color: black;
 }
 
-.anchor {
-  display: block;
-  position: relative;
-  top: -55px;
-  visibility: hidden;
-}
-
-/*
-header {
-  height: 100px;
-}
-*/
-
-
-header {
-  position: fixed;
-  width: 100%;
-  /*
-      background-color: #333;
-  */
-  background-color: rgb(35, 35, 107);
-  color: #fff;
-  padding: 30px;
-  z-index: 10;
-} 
-
-.menuButton2 {
-  position: absolute;
-  top: -15px;
-  right: 18px;
-  font-size: 60px;
-}
-
-main {
-  margin-top: 100px; 
-}
-
 
 /* menu start */
 
 .menuButton {
   position: absolute;
-  top: -15px;
-  right: 10px;
+  top: 20px;
+  right: 45px;
   font-size: 60px;
+}
+
+.menuDivTest {
+  height: 100px;
 }
 
 .overlay {
@@ -137,8 +104,8 @@ main {
 #title {
     border: solid 4px black;
     padding: 0px 10px 0px 10px;
-    margin: 100px 0rem 0.5rem 0rem;
-    background-color: rgb(244, 250, 255);
+    margin: 28px 0rem 0.5rem 0rem;
+    background-color: rgb(244, 250, 255);;
 }
 
 #title h1 {
