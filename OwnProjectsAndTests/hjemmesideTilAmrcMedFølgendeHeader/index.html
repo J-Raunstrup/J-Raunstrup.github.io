@@ -9,15 +9,15 @@
     <script src="https://kit.fontawesome.com/e5e3a9297d.js" crossorigin="anonymous"></script>
     <script src="resources/javascript/script.js"></script>
 </head>
-<body id="hjem">
+<body>
     <div id="myNav" class="overlay">
         <div class="overlay-content">
           <a href="#hjem" onclick="closeNav()">Hjem</a>
           <a href="#showReelBoks" onclick="closeNav()">Showreel</a>
-          <a href="#favoritProjekter" onclick="closeNav()">Favorit projekter</a>
-          <a href="#fotosBoks" onclick="closeNav()">Fotos</a>
-          <a href="#hvemErJegBoks" onclick="closeNav()">Hvem er jeg?</a>
-          <a href="#kontaktDiv" onclick="closeNav()">Kontakt</a>
+          <a href="#favoritProjekterBoks" onclick="closeNav()">Favorit projekter</a>
+          <a href="#fotoBoks" onclick="closeNav()">Fotos</a>
+          <a href="#hvemBoks" onclick="closeNav()">Hvem er jeg?</a>
+          <a href="#kontaktBoks" onclick="closeNav()">Kontakt</a>
         </div>
     </div>
     <header>
@@ -25,7 +25,7 @@
         <span style="font-size:60px;cursor:pointer;display:none" onclick="closeNav()" class="menuButton2" id="closeButton">&times;</span>
     </header>
     <script src="resources/javascript/menu.js"></script>
-    <div class="divMedTekstBokse">
+    <div class="divMedTekstBokse" id="hjem">
         <div class="divMedTekstBoks" id="title">
             <h1>Skuespiller og Sanger</h1>
             <h2>Agnes Marie Riis Christens</h2>
@@ -42,7 +42,8 @@
             </div>
             <p><a href="mailto:Agneschristens@yahoo.dk">Agneschristens@yahoo.dk</a></p>
         </div>
-        <div class="divMedTekstBoks" id="showReelBoks">
+        <div class="divMedTekstBoks">
+            <a class="anchor" id="showReelBoks"></a>
             <h3 class="blueHeader" id="showreelH3">Showreel</h3>
             <video width="320" height="240" controls>
                 <source src="resources/videos/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
@@ -50,6 +51,7 @@
             </video>
         </div>
         <div class="divMedTekstBoks" id="favoritProjekter">
+            <a class="anchor" id="favoritProjekterBoks"></a>
             <h3 class="blueHeader">Favorit projekter</h3>
             <ul>
                 <div class="projektDiv">
@@ -77,6 +79,7 @@
             <a href="resources/PDF files/pdf-test.pdf" class="button">Download fulde CV klick her</a>
         </div>
             <div class="divMedTekstBoks" id="fotosBoks">
+                <a class="anchor" id="fotoBoks"></a>
                 <h3 class="blueHeader">Fotos</h3>
                 <span id="fotosBoksIndhold">
                     <p>Billeder af mig</p>
@@ -114,6 +117,7 @@
 
         
         <div class="divMedTekstBoks" id="hvemErJegBoks">
+            <a class="anchor" id="hvemBoks"></a>
             <h3 class="blueHeader">Hvem er jeg?</h3>
             <div id="hvemErJegDiv">
             <!-- alternativt skriv om mig. eller noget som mit univers eller noget tilsvarende.-->
@@ -125,6 +129,7 @@
             </div>
         </div>
         <div class="divMedTekstBoks" id="kontaktDiv">
+            <a class="anchor" id="kontaktBoks"></a>
             <h3 id="blackHeader">Kontakt</h3>
             <div>
                 <div>
