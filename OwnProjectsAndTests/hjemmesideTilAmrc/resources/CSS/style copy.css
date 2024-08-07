@@ -5,9 +5,11 @@
 
 only missing 4 things 
 
+missing menu button
+
 missing a video (awaiting one)
 
-missing last text and last pictures (awaiting)
+missing last text and lat pictures (awaiting)
 
 missing being on a real website (awaiting go sign and that the domain gets bought)
 
@@ -19,10 +21,13 @@ body {
 }
 
 
-
-
-
 /* menu start */
+
+/*
+body {
+  font-family: 'Lato', sans-serif;
+}
+*/
 
 .menuButton {
   position: absolute;
@@ -87,9 +92,6 @@ body {
 }
 
 /* menu stop */
-
-
-
 
 
 .divMedTekstBokse {
@@ -279,6 +281,23 @@ video {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* slideshow start */
 body {
     margin: 0;
@@ -451,20 +470,10 @@ body {
   .column {
     cursor: pointer;
   }
-
-  /* last to css declarations to make sure lightbox gets resized with browser and images in lightbox keep ratio.*/
-  .column2 {
-    cursor: pointer;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .column2 {
-    width: 11.11%;
-  }
 /* slideshow stop */
+
+
+
 
 
 
