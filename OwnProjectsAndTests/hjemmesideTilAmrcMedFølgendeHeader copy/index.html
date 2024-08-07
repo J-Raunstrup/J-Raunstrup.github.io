@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agnes Marie | Officielt site - Det officielle site for Agnes Marie Riis Christens</title>
+    <link rel="stylesheet" href="resources/CSS/style.css">
+    <!-- javascripts -->
+    <script src="https://kit.fontawesome.com/e5e3a9297d.js" crossorigin="anonymous"></script>
+    <script src="resources/javascript/script.js"></script>
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+          <a href="#hjem" onclick="closeNav()">Hjem</a>
+          <a href="#showReelBoks" onclick="closeNav()">Showreel</a>
+          <a href="#favoritProjekterBoks" onclick="closeNav()">Favorit projekter</a>
+          <a href="#fotoBoks" onclick="closeNav()">Fotos</a>
+          <a href="#hvemBoks" onclick="closeNav()">Hvem er jeg?</a>
+          <a href="#kontaktBoks" onclick="closeNav()">Kontakt</a>
+        </div>
+    </div>
+    <header>
+        <span style="font-size:60px;cursor:pointer" onclick="openNav()" class="menuButton" id="openButton">&#9776;</span>
+        <span style="font-size:60px;cursor:pointer;display:none" onclick="closeNav()" class="menuButton2" id="closeButton">&times;</span>
+    </header>
+    <script src="resources/javascript/menu.js"></script>
+    <div class="divMedTekstBokse" id="hjem">
+        <div class="divMedTekstBoks" id="title">
+            <h1>Skuespiller og Sanger</h1>
+            <h2>Agnes Marie Riis Christens</h2>
+        </div>
+        <div class="nameAndPictureDiv">
+            <div class="imageAndNameContainer">
+                <div class="agnesMariePDiv">
+                    <h3>Agnes</h3>
+                    <h3>Marie</h3>
+                </div>
+                <div class="parentTest">
+                    <img src="resources/images/portrait.jpg" alt="Billede af mig" id="portrait1">
+                </div>
+            </div>
+            <p><a href="mailto:Agneschristens@yahoo.dk">Agneschristens@yahoo.dk</a></p>
+        </div>
+        <div class="divMedTekstBoks">
+            <a class="anchor" id="showReelBoks"></a>
+            <h3 class="blueHeader" id="showreelH3">Showreel</h3>
+            <video width="320" height="240" controls>
+                <source src="resources/videos/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="divMedTekstBoks" id="favoritProjekter">
+            <a class="anchor" id="favoritProjekterBoks"></a>
+            <h3 class="blueHeader">Favorit projekter</h3>
+            <ul>
+                <div class="projektDiv">
+                    <li>Et drömspil - Nyfortolket af Svante Grogarn</li>
+                    <img src="resources/images/Aspect_ratio_-_16x9.svg.png" alt="">
+                </div>
+                <div class="projektDiv">
+                    <li>Spor av Antigone. Instrueret af _________________</li>
+                    <img src="resources/images/Aspect_ratio_-_16x9.svg.png" alt="">
+                </div>
+                <div class="projektDiv">
+                    <li>Hårmappa - Af Emma Blomster til no marton Stockholm 2023</li>
+                    <img src="resources/images/Aspect_ratio_-_16x9.svg.png" alt="">
+                </div>
+                <div class="projektDiv">
+                    <li>Handbag - Instrueret af Kristian Studsgård</li>
+                    <img src="resources/images/Aspect_ratio_-_16x9.svg.png" alt="">
+                </div>
+                <div class="projektDiv">
+                    <li>Et forandret liv - Af Karsten Kresner til hjernetumorforeningen</li>
+                    <img src="resources/images/Aspect_ratio_-_16x9.svg.png" alt="">
+                </div>
+                <!-- ingen melodi gran pri?? ingen næstved arena???? skulle mpske nævne noget flere kendte.-->
+            </ul>
+            <a href="resources/PDF files/pdf-test.pdf" class="button">Download fulde CV klick her</a>
+        </div>
+            <div class="divMedTekstBoks" id="fotosBoks">
+                <a class="anchor" id="fotoBoks"></a>
+                <h3 class="blueHeader">Fotos</h3>
+                <span id="fotosBoksIndhold">
+                    <p>Billeder af mig</p>
+                    <span class="row">
+                        <a class="column">
+                            <img src="resources/images/img_lights.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                        </a>
+                        <a class="column">
+                            <img src="resources/images/img_mountains.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                        </a>
+                        <a class="column">
+                            <img src="resources/images/img_nature.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                        </a>
+                        <a class="column">
+                            <img src="resources/images/img_snow.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                        </a>
+                        <a class="column">
+                            <img src="resources/images/img_lights.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                        </a>
+                        <a class="column">
+                            <img src="resources/images/img_mountains.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                        </a>
+                        <a class="column">
+                            <img src="resources/images/img_nature.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                        </a>
+                        <a class="column">
+                            <img src="resources/images/img_snow.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                        </a>
+                        <a class="column">
+                            <img src="resources/images/img_lights.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+                        </a>
+                    </span>
+                </span>
+            </div>
+
+        
+        <div class="divMedTekstBoks" id="hvemErJegBoks">
+            <a class="anchor" id="hvemBoks"></a>
+            <h3 class="blueHeader">Hvem er jeg?</h3>
+            <div id="hvemErJegDiv">
+            <!-- alternativt skriv om mig. eller noget som mit univers eller noget tilsvarende.-->
+            <p>Jeg er en ung skuespiller udannet fra talentskolen i Næstved. 
+                Efter jeg afsluttede min uddannelse, tog jeg mod Sverige for at studere. 
+                Jeg gik på Nordiska Högskola Teater. 
+                Det var spændende at spille på et andet sprog end sit modersmål og helt klart noget jeg vil fortsætte med.</p>
+            <img src="resources/images/Aspect_ratio_-_16x9.svg.png" alt="" id="portrait2">
+            </div>
+        </div>
+        <div class="divMedTekstBoks" id="kontaktDiv">
+            <a class="anchor" id="kontaktBoks"></a>
+            <h3 id="blackHeader">Kontakt</h3>
+            <div>
+                <div>
+                    <p>Telefon: +45 24 89 17 80</p>
+                    <p>Mail: Agneschristens@yahoo.dk</p>
+                </div>
+                <div class="buttonPictureContactDiv">
+                    <a href="mailto:agneschristens@yahoo.dk" class="button" id="sendEnMailButton">Send en mail.</a>
+                    <img src="resources/images/portrait.jpg" alt="Billede af mig" id="kontaktPortrait">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+    
+            <div class="mySlides">
+                <div class="numbertext">1 / 9</div>
+                <img src="resources/images/img_lights.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 9</div>
+                <img src="resources/images/img_mountains.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 9</div>
+                <img src="resources/images/img_nature.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">4 / 9</div>
+                <img src="resources/images/img_snow.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 9</div>
+                <img src="resources/images/img_lights.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">6 / 9</div>
+                <img src="resources/images/img_mountains.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">7 / 9</div>
+                <img src="resources/images/img_nature.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">8 / 9</div>
+                <img src="resources/images/img_snow.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">9 / 9</div>
+                <img src="resources/images/img_lights.jpg" style="width:100%">
+            </div>
+        
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        
+            <!-- Thumbnail image controls -->
+                <div class="column2">
+                    <img class="demo" src="resources/images/img_lights.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature">
+                </div>
+            
+                <div class="column2">
+                    <img class="demo" src="resources/images/img_mountains.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                </div>
+            
+                <div class="column2">
+                    <img class="demo" src="resources/images/img_nature.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains">
+                </div>
+            
+                <div class="column2">
+                    <img class="demo" src="resources/images/img_snow.jpg" style="width:100%" onclick="currentSlide(4)" alt="Lights">
+                </div>
+
+                <div class="column2">
+                    <img class="demo" src="resources/images/img_lights.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature">
+                </div>
+            
+                <div class="column2">
+                    <img class="demo" src="resources/images/img_mountains.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snow">
+                </div>
+            
+                <div class="column2">
+                    <img class="demo" src="resources/images/img_nature.jpg" style="width:100%" onclick="currentSlide(7)" alt="Mountains">
+                </div>
+            
+                <div class="column2">
+                    <img class="demo" src="resources/images/img_snow.jpg" style="width:100%" onclick="currentSlide(8)" alt="Lights">
+                </div>
+
+                <div class="column2">
+                    <img class="demo" src="resources/images/img_lights.jpg" style="width:100%" onclick="currentSlide(9)" alt="Nature">
+                </div>
+
+        </div>
+    </div>
+
+    <!-- script for slideshow -->
+    <script src="resources/javascript/slideshow.js"></script>
+</body>
+</html>
