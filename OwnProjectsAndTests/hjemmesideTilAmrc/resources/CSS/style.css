@@ -19,7 +19,9 @@ body {
 }
 
 
-
+.nameAndPictureDiv p a {
+  color: black;
+}
 
 
 /* menu start */
