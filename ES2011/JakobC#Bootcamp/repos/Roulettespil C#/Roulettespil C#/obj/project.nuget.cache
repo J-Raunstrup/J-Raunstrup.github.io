@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9+XxxTeDNqz4rdPlvzWwy8HUHnHy5mssmQ3WtUoX7n7MHcBW0HelBdg/d16KbfzDbGz1wOrQa2Kn4myiDhHicA==",
+  "dgSpecHash": "UpT0Bo+VFN3fRRidEY88YkQIn50rKdgq7Hii2TcqrsEXblTMk7rvmPJJJ7W9TEdxshz0U8mNoJ/4Ut4/JO8Oug==",
   "success": true,
   "projectFilePath": "/Users/jens/Documents/Projects/ES2011/JakobC#Bootcamp/repos/Roulettespil C#/Roulettespil C#/Roulettespil C#.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jens/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/jens/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
+    "/Users/jens/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
   "logs": []
 }
